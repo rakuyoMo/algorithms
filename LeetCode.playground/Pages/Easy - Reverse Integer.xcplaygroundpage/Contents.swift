@@ -84,8 +84,8 @@ func reverse2(_ x: Int) -> Int {
         result = result * 10 + tmpx % 10
         tmpx = tmpx / 10
     }
-    
-     if result < -(1 << 31) || result > (1 << 31)-1 {
+
+     if result < Int32.min || result > Int32.max {
         return 0
     }
     
