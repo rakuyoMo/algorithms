@@ -1,8 +1,5 @@
 //: [Previous](@previous)
-
-import Foundation
-
-/*
+/*:
  给定一个 32 位有符号整数，将整数中的数字进行反转。
  
  示例 1:
@@ -21,6 +18,7 @@ import Foundation
  
  假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−231,  231 − 1]。根据这个假设，如果反转后的整数溢出，则返回 0。
  */
+import Foundation
 
 // 测试用例
 let testOne   = 123
@@ -71,8 +69,11 @@ reverse(testSeven)
 reverse(testEight)
 
 /* ------- ------- ------- ------- ------- ------- ------- ------- ------- */
-
-// 最佳写法。取余拿最后一位
+/*:
+ **最佳解答**
+ 
+ 取余拿最后一位
+ */
 func reverse2(_ x: Int) -> Int {
     var result = 0
     var tmpx = x
@@ -99,6 +100,4 @@ reverse2(testSix)
 reverse2(testFive)
 reverse2(testSeven)
 reverse2(testEight)
-
-
 //: [Next](@next)
