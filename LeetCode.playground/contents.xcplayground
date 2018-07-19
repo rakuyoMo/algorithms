@@ -4,5 +4,7 @@
         <page name='Easy - Two Sum'/>
         <page name='Easy - Reverse Integer'/>
         <page name='Easy - Palindrome Number'/>
+        <page name='Easy - Roman to Integer'/>
+        <page name='Easy - Symmetric Tree'/>
     </pages>
 </playground>

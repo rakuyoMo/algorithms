@@ -63,27 +63,13 @@ func romanToInt(_ s: String) -> Int {
     
     for char in s {
         
-        if char == "I" {
-            sum += 1
-            
-        } else if char == "V" {
-            sum += 5
-            
-        } else if char == "X" {
-            sum += 10
-            
-        } else if char == "L" {
-            sum += 50
-            
-        } else if char == "C" {
-            sum += 100
-            
-        } else if char == "D" {
-            sum += 500
-            
-        } else if char == "M" {
-            sum += 1000
-        }
+               if char == "I" { sum += 1
+        } else if char == "V" { sum += 5
+        } else if char == "X" { sum += 10
+        } else if char == "L" { sum += 50
+        } else if char == "C" { sum += 100
+        } else if char == "D" { sum += 500
+        } else if char == "M" { sum += 1000 }
     }
     
     return sum
@@ -110,14 +96,13 @@ func romanToInt2(_ s: String) -> Int {
     
     for char in s {
         
-        if char == "I" { res += 1
-            
-        } else if char == "V" { if lastChar == "I" { res += 3   } else { res += 5    }
-        } else if char == "X" { if lastChar == "I" { res += 8   } else { res += 10   }
-        } else if char == "L" { if lastChar == "X" { res += 30  } else { res += 50   }
-        } else if char == "C" { if lastChar == "X" { res += 80  } else { res += 100  }
-        } else if char == "D" { if lastChar == "C" { res += 300 } else { res += 500  }
-        } else if char == "M" { if lastChar == "C" { res += 800 } else { res += 1000 } }
+               if char == "I" { res += 1
+        } else if char == "V" { res += lastChar == "I" ? 3   : 5
+        } else if char == "X" { res += lastChar == "I" ? 8   : 10
+        } else if char == "L" { res += lastChar == "X" ? 30  : 50
+        } else if char == "C" { res += lastChar == "X" ? 80  : 100
+        } else if char == "D" { res += lastChar == "C" ? 300 : 500
+        } else if char == "M" { res += lastChar == "C" ? 800 : 1000 }
         
         lastChar = char
     }
