@@ -6,5 +6,6 @@
         <page name='Easy - Palindrome Number'/>
         <page name='Easy - Roman to Integer'/>
         <page name='Easy - Symmetric Tree'/>
+        <page name='Easy - Remove Duplicates from Sorted Array'/>
     </pages>
 </playground>
