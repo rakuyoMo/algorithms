@@ -50,6 +50,7 @@ longestCommonPrefix(testThree)
 /* ------- ------- ------- ------- ------- ------- ------- ------- ------- */
 /*:
  **最佳解答**
+ 
  和 上面的答案 耗时相同
  */
 func longestCommonPrefix2(_ strs: [String]) -> String {

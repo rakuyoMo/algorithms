@@ -67,6 +67,8 @@ testThree
 /* ------- ------- ------- ------- ------- ------- ------- ------- ------- */
 /*:
  **最佳解答**
+ 
+ 运行前请先注释上面答案的调用函数
  */
 func removeDuplicates2(_ nums: inout [Int]) -> Int {
     if nums.count == 0 { return 0 }
