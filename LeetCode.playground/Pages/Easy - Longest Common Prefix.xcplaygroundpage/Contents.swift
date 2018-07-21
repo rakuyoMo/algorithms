@@ -22,12 +22,12 @@ import Foundation
 // 测试用例
 var testOne   = ["flower", "flow", "flight"]  // "fl"
 var testTwo   = ["dog", "racecar", "car"]     // ""
-var testThree: [String] = []                // ""
+var testThree: [String] = []                  // ""
 
 /* ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- */
 
 func longestCommonPrefix(_ strs: [String]) -> String {
-    guard let prefix = strs.first else { return "" }
+    guard strs.first != nil else { return "" }
     
     var tmpStr = strs[0]
     
@@ -56,22 +56,19 @@ longestCommonPrefix(testThree)
 func longestCommonPrefix2(_ strs: [String]) -> String {
     let count = strs.count
     
-    if count == 0 {
-        return ""
-    }
-    if count == 1 {
-        return strs.first!
-    }
+    if count == 0 { return "" }
+    if count == 1 { return strs.first! }
     
     var result = strs.first!
     for i in 1..<count {
         while !strs[i].hasPrefix(result) {
+            
             result = String(result.prefix(result.count - 1))
-            if result.count == 0 {
-                return ""
-            }
+            
+            if result.count == 0 { return "" }
         }
     }
+    
     return result
 }
 
