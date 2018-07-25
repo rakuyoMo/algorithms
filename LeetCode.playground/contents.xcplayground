@@ -9,5 +9,6 @@
         <page name='Easy - Remove Duplicates from Sorted Array'/>
         <page name='Easy - Longest Common Prefix'/>
         <page name='Medium - ZigZag Conversion'/>
+        <page name='Easy - Implement strStr()'/>
     </pages>
 </playground>
