@@ -8,5 +8,6 @@
         <page name='Easy - Symmetric Tree'/>
         <page name='Easy - Remove Duplicates from Sorted Array'/>
         <page name='Easy - Longest Common Prefix'/>
+        <page name='Medium - ZigZag Conversion'/>
     </pages>
 </playground>
