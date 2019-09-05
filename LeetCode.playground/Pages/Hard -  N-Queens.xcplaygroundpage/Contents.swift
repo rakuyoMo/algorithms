@@ -27,74 +27,86 @@ let testOne = 4
 
 /* ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- */
 
+// https://www.cnblogs.com/strengthen/p/9910395.html
+
 func solveNQueens(_ n: Int) -> [[String]] {
     
     guard n > 0 else { return [] }
     
+    // 准备工作
+    var results = [[String]]()
+    var cols = [Int]() // 列
+    cols.reserveCapacity(n) // 为 cols 提前开出 n 的长度空间
     
+    dfsHelper(n, &cols, &results)
     
-    return []
+    return results
 }
 
-//class Solution {
-//    func solveNQueens(_ n: Int) -> [[String]] {
-//        guard n > 0 else {
-//            return []
-//        }
-//        var results = [[String]]()
-//        var cols = [Int]() // 列
-//        cols.reserveCapacity(n) // 为 cols 提前开出 n 的长度空间
-//        dfsHelper(n, &cols, &results)
-//        return results
-//    }
-//
-//    fileprivate func dfsHelper(_ n: Int, _ cols: inout [Int], _ results: inout [[String]]) {
-//        if cols.count == n {
-//            results.append(draw(cols))
-//            return
-//        }
-//
-//        for i in 0..<n {
-//            guard isValid(cols, i) else {
-//                continue
-//            }
-//            cols.append(i)
-//            dfsHelper(n, &cols, &results)
-//            cols.removeLast()
-//        }
-//    }
-//
-//
-//    fileprivate func isValid(_ cols: [Int], _ colIndex: Int) -> Bool {
-//        for rowIndex in 0..<cols.count {
-//            if colIndex == cols[rowIndex] {
-//                return false
-//            }
-//            if cols.count - rowIndex == colIndex - cols[rowIndex] {
-//                return false
-//            }
-//            if rowIndex - cols.count == colIndex - cols[rowIndex] {
-//                return false
-//            }
-//        }
-//        return true
-//    }
-//
-//    fileprivate func draw(_ cols: [Int]) -> [String] {
-//        var result = [String]()
-//        for rowIndex in 0..<cols.count {
-//            var row = ""
-//            for j in 0..<cols.count {
-//                row += cols[rowIndex] == j ? "Q" : "."
-//            }
-//            result.append(row)
-//        }
-//        return result
-//    }
-//}
+fileprivate func dfsHelper(_ n: Int, _ cols: inout [Int], _ results: inout [[String]]) {
+    
+    print("------------------- dfsHelper -------------")
+    print(n, cols ,results)
+    
+    
+    if cols.count == n {
+        results.append(draw(cols))
+        return
+    }
+    
+    for i in 0 ..< n {
+        guard isValid(cols, index: i) else { continue }
+        cols.append(i)
+        dfsHelper(n, &cols, &results)
+        cols.removeLast()
+    }
+}
 
 
-solveNQueens(testOne)
+fileprivate func isValid(_ cols: [Int], index colIndex: Int) -> Bool {
+    
+    print("isValid 接收到的 cols：\(cols), index: \(colIndex)")
+    
+    for rowIndex in 0 ..< cols.count {
+        
+        print("进到了 isValid 的 for 循环")
+        
+        if colIndex == cols[rowIndex] {
+            print("\(colIndex) == cols[\(rowIndex)](\(cols[rowIndex]))")
+            return false
+        }
+
+        if (cols.count - rowIndex) == (colIndex - cols[rowIndex]) {
+            print("\(cols.count) - \(rowIndex) == \(colIndex) - cols[\(rowIndex)](\(cols[rowIndex]))")
+            return false
+        }
+
+        if (rowIndex - cols.count) == (colIndex - cols[rowIndex]) {
+            print("\(rowIndex) - \(cols.count) == \(colIndex) - cols[\(rowIndex)](\(cols[rowIndex]))")
+            return false
+        }
+    }
+    
+    print("isValid 返回 true")
+    
+    return true
+}
+
+fileprivate func draw(_ cols: [Int]) -> [String] {
+    var result = [String]()
+    for rowIndex in 0..<cols.count {
+        var row = ""
+        for j in 0..<cols.count {
+            row += cols[rowIndex] == j ? "Q" : "."
+        }
+        result.append(row)
+    }
+    return result
+}
+
+
+
+print(solveNQueens(testOne))
 
 /* ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- */
 
