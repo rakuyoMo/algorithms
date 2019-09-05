@@ -77,12 +77,12 @@ fileprivate func isValid(_ cols: [Int], index colIndex: Int) -> Bool {
         }
 
         if (cols.count - rowIndex) == (colIndex - cols[rowIndex]) {
-            print("\(cols.count) - \(rowIndex) == \(colIndex) - cols[\(rowIndex)](\(cols[rowIndex]))")
+            print("\(cols.count) - rowIndex: \(rowIndex) == \(colIndex) - cols[\(rowIndex)](\(cols[rowIndex]))")
             return false
         }
 
         if (rowIndex - cols.count) == (colIndex - cols[rowIndex]) {
-            print("\(rowIndex) - \(cols.count) == \(colIndex) - cols[\(rowIndex)](\(cols[rowIndex]))")
+            print("rowIndex: \(rowIndex) - \(cols.count) == \(colIndex) - cols[\(rowIndex)](\(cols[rowIndex]))")
             return false
         }
     }
