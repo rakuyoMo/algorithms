@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
-        <page name='Easy - Two Sum'/>
-        <page name='Easy - Reverse Integer'/>
-        <page name='Easy - Palindrome Number'/>
-        <page name='Easy - Roman to Integer'/>
-        <page name='Easy - Symmetric Tree'/>
-        <page name='Easy - Remove Duplicates from Sorted Array'/>
-        <page name='Easy - Longest Common Prefix'/>
-        <page name='Medium - ZigZag Conversion'/>
-        <page name='Easy - Implement strStr()'/>
-        <page name='Easy - Search Insert Position'/>
-        <page name='Medium - Longest Word in Dictionary through Deleting'/>
-        <page name='Medium - Beautiful Arrangement II'/>
-        <page name='Medium - Rabbits in Forest'/>
-        <page name='Hard -  N-Queens'/>
-        <page name='Medium - Elimination Game'/>
+        <page name='1     - Easy - Two Sum'/>
+        <page name='6     - Medi - ZigZag Conversion'/>
+        <page name='7     - Easy - Reverse Integer'/>
+        <page name='9     - Easy - Palindrome Number'/>
+        <page name='13   - Easy - Roman to Integer'/>
+        <page name='14   - Easy - Longest Common Prefix'/>
+        <page name='26   - Easy - Remove Duplicates from Sorted Array'/>
+        <page name='28   - Easy - Implement strStr()'/>
+        <page name='35   - Easy - Search Insert Position'/>
+        <page name='51   - Hard -  N-Queens'/>
+        <page name='101 - Easy - Symmetric Tree'/>
+        <page name='390 - Medi - Elimination Game'/>
+        <page name='524 - Medi - Longest Word in Dictionary through Deleting'/>
+        <page name='667 - Medi - Beautiful Arrangement II'/>
+        <page name='781 - Medi - Rabbits in Forest'/>
     </pages>
 </playground>
