@@ -1,4 +1,7 @@
 //: [Previous](@previous)
+
+import Foundation
+
 /*:
  给定一个整数 n，返回所有不同的 n 皇后问题的解决方案。
  
@@ -20,7 +23,6 @@
  ]
  解释: 4 皇后问题存在两个不同的解法。
  */
-import Foundation
 
 // 测试用例
 let testOne = 4
