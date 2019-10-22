@@ -41,7 +41,7 @@ extension Solution {
         if numRows == 1 || s.count <= numRows { return s }
         
         
-
+        
         return ""
     }
     
