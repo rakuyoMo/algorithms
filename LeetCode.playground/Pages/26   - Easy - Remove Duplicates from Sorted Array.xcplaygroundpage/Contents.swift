@@ -1,8 +1,8 @@
 //: [Previous](@previous)
+
+import Foundation
+
 /*:
- 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
- 
- 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
  
  示例 1:
  
@@ -31,64 +31,86 @@
  
  // 在函数里修改输入数组对于调用者是可见的。
  // 根据你的函数返回的长度, 它会打印出数组中该长度范围内的所有元素。
- for (int i = 0; i < len; i++) {
-    print(nums[i]);
- }
  */
-import Foundation
 
-// 测试用例
-var testOne   = [0,0,1,1,1,2,2,3,3,4]  // [0, 1, 2, 3, 4] -> 5
-var testTwo   = [1,1,2]                // [1, 2] -> 2
-var testThree = [-3,-1,-1,0,0,0,0,0,2] // [-3, -1, 0, 2] -> 4
+/**
+ *  - 题目：
+ *
+ *  给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+ *  不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+ *
+ *  - 示例：
+ *
+ *
+ */
+class Solution {
 
-/* ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- */
+    /* 测试用例 */
+    var testOne   = [0,0,1,1,1,2,2,3,3,4]  // [0, 1, 2, 3, 4] -> 5
+    var testTwo   = [1,1,2]                // [1, 2] -> 2
+    var testThree = [-3,-1,-1,0,0,0,0,0,2] // [-3, -1, 0, 2] -> 4
+}
 
-func removeDuplicates(_ nums: inout [Int]) -> Int {
+// MARK: -
 
-    var tmpNum: Int? = nil
+extension Solution {
     
-    for value in nums {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+
+        var tmpNum: Int? = nil
         
-        if value != tmpNum { tmpNum = value
-        } else { nums.remove(at: nums.firstIndex(of: value)!) }
-    }
-
-    return nums.count
-}
-
-removeDuplicates(&testOne)      // [0, 1, 2, 3, 4] -> 5
-testOne
-removeDuplicates(&testTwo)      // [1, 2] -> 2
-testTwo
-removeDuplicates(&testThree)    // [-3, -1, 0, 2] -> 4
-testThree
-
-/* ------- ------- ------- ------- ------- ------- ------- ------- ------- */
-/*:
- **最佳解答**
- 
- 运行前请先注释上面答案的调用函数
- */
-func removeDuplicates2(_ nums: inout [Int]) -> Int {
-    if nums.count == 0 { return 0 }
-    
-    var i = 0
-    for k in 1 ..< nums.count {
-        if nums[i] != nums[k] {
-            i = i + 1
-            nums[i] = nums[k]
+        for value in nums {
+            
+            if value != tmpNum { tmpNum = value
+            } else { nums.remove(at: nums.firstIndex(of: value)!) }
         }
+
+        return nums.count
     }
     
-    return i + 1
+    func runTest() {
+        
+        removeDuplicates(&testOne)      // [0, 1, 2, 3, 4] -> 5
+        testOne
+        removeDuplicates(&testTwo)      // [1, 2] -> 2
+        testTwo
+        removeDuplicates(&testThree)    // [-3, -1, 0, 2] -> 4
+        testThree
+    }
 }
 
-removeDuplicates2(&testOne)      // [0, 1, 2, 3, 4] -> 5
-testOne
-removeDuplicates2(&testTwo)      // [1, 2] -> 2
-testTwo
-removeDuplicates2(&testThree)    // [-3, -1, 0, 2] -> 4
-testThree
+//Solution().runTest()
+
+// MARK: - 最佳解答
+
+extension Solution {
+    
+    // 运行前请先注释上面答案的调用函数
+    func removeDuplicates2(_ nums: inout [Int]) -> Int {
+        if nums.count == 0 { return 0 }
+        
+        var i = 0
+        for k in 1 ..< nums.count {
+            if nums[i] != nums[k] {
+                i = i + 1
+                nums[i] = nums[k]
+            }
+        }
+        
+        return i + 1
+    }
+
+    func runTest2() {
+        
+        removeDuplicates2(&testOne)      // [0, 1, 2, 3, 4] -> 5
+        testOne
+        removeDuplicates2(&testTwo)      // [1, 2] -> 2
+        testTwo
+        removeDuplicates2(&testThree)    // [-3, -1, 0, 2] -> 4
+        testThree
+    }
+}
+
+Solution().runTest2()
 
 //: [Next](@next)
