@@ -38,6 +38,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9176B007F857620AF70BBAD7 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
+		9176B1848579A0FF631CDBD9 /* BitManipulation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BitManipulation;
+			sourceTree = "<group>";
+		};
+		9176B257B3573471487F506B /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
 		9176B2AB26445FFA5208B108 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -46,12 +67,117 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9176B2E3C3803C0D88C46985 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		9176B36579CE8E801DE9849D /* BreadthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BreadthFirstSearch;
+			sourceTree = "<group>";
+		};
+		9176B3BB687B88ADEA427E45 /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MySQL;
+			sourceTree = "<group>";
+		};
+		9176B43FD48C92215379A1AD /* DoublePointer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DoublePointer;
+			sourceTree = "<group>";
+		};
 		9176B478A153F90720E681C1 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
 				9176BBAB221F4A0A49FE0E31 /* main.swift */,
+				9176B2E3C3803C0D88C46985 /* Math */,
+				9176BBA35529EC80B7FC4D89 /* Image */,
+				9176B9215C99350E4C40ED1D /* Queue */,
+				9176B257B3573471487F506B /* LinkedList */,
+				9176BBE3AAC05B018D9056BE /* Backtracking */,
+				9176BDBEAE0A329BEB94AD91 /* GreedyAlgorithm */,
+				9176BA03E5C9DDDAD01805FF /* HashTable */,
+				9176B7B26FF108AA7D3A08E9 /* String */,
+				9176B1848579A0FF631CDBD9 /* BitManipulation */,
+				9176BB5EBE3D07B2071E1680 /* Stack */,
+				9176B36579CE8E801DE9849D /* BreadthFirstSearch */,
+				9176B4CF56A0A105BA60A6D8 /* DepthFirstSearch */,
+				9176BB8543D925FC5C7A74D0 /* Heap */,
+				9176B674E532FB8BCF715602 /* TreeNode */,
+				9176B7DB78588FC2310CD1A8 /* Recursion */,
+				9176B43FD48C92215379A1AD /* DoublePointer */,
+				9176B947FFC6040E199AC856 /* DynamicProgramming */,
+				9176B62B15919E35113A613E /* Array */,
+				9176B007F857620AF70BBAD7 /* BinarySearch */,
+				9176BD09C8AD4714225EC71E /* SlidingWindow */,
+				9176B3BB687B88ADEA427E45 /* MySQL */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		9176B4CF56A0A105BA60A6D8 /* DepthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DepthFirstSearch;
+			sourceTree = "<group>";
+		};
+		9176B62B15919E35113A613E /* Array */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		9176B674E532FB8BCF715602 /* TreeNode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TreeNode;
+			sourceTree = "<group>";
+		};
+		9176B7B26FF108AA7D3A08E9 /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		9176B7DB78588FC2310CD1A8 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
+		9176B9215C99350E4C40ED1D /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		9176B947FFC6040E199AC856 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		9176BA03E5C9DDDAD01805FF /* HashTable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HashTable;
 			sourceTree = "<group>";
 		};
 		9176BABB0A825BDCBAD5C5FF = {
@@ -60,6 +186,48 @@
 				9176B2AB26445FFA5208B108 /* Products */,
 				9176B478A153F90720E681C1 /* LeetCode */,
 			);
+			sourceTree = "<group>";
+		};
+		9176BB5EBE3D07B2071E1680 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		9176BB8543D925FC5C7A74D0 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		9176BBA35529EC80B7FC4D89 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		9176BBE3AAC05B018D9056BE /* Backtracking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backtracking;
+			sourceTree = "<group>";
+		};
+		9176BD09C8AD4714225EC71E /* SlidingWindow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SlidingWindow;
+			sourceTree = "<group>";
+		};
+		9176BDBEAE0A329BEB94AD91 /* GreedyAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GreedyAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
