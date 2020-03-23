@@ -8,17 +8,3 @@
 
 import Foundation
 
-func test(_ a: Int) {
-
-    if a == 0 {
-        test(9)
-    } else {
-        return
-    }
-
-    print("Hello, World!")
-}
-
-test(0)
-
-
