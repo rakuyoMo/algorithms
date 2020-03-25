@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ListNode {
+fileprivate class ListNode {
     var val: Int
     var next: ListNode?
     init(_ val: Int) {
@@ -17,7 +17,7 @@ class ListNode {
     }
 }
 
-class _876 {
+fileprivate class _876 {
 
     /// 876. 链表的中间结点 简单
     /// 
