@@ -1,9 +1,9 @@
 //
 //  e-999-Available-Captures-for-Rook.swift
-//  MBCore
+//  LeetCode
 //
-//  Created by MBCore on 2020/3/26.
-//  Copyright © 2020 com.mbcore. All rights reserved.
+//  Created by Rakuyo on 2020/3/26.
+//  Copyright © 2020 com.rakuyo. All rights reserved.
 //
 
 import Foundation
