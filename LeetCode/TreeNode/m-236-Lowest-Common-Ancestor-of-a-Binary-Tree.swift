@@ -33,6 +33,10 @@ extension Solution {
     
     func _236() {
         
+        let node = TreeNode(preOrder: [3,5,1,6,2,0,8,nil,nil,7,4])
         
+        print(node?.val)
+        print(node?.left?.val)
+        print(node?.right?.val)
     }
 }
