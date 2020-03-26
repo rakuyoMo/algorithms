@@ -13,6 +13,7 @@
 		9176BA8F7AFF185136612664 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176BBAB221F4A0A49FE0E31 /* main.swift */; };
 		9176BAB9156323D45AE464C6 /* e-876-Middle-of-the-Linked-List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176B5FF3EFF31BB7ED95AF3 /* e-876-Middle-of-the-Linked-List.swift */; };
 		9176BD5570EBF92E5BB246AA /* e-67-Add-Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176BE55056A93B071CACD0B /* e-67-Add-Binary.swift */; };
+		BF93E555E9275993B36DFA41 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */; };
 		BF93E60741D5D7D206F6354C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E273B6EB9788655FF0C6 /* ListNode.swift */; };
 		BF93E766B6A9A543D91C70A9 /* e-999-Available-Captures-for-Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93EA88BB00F490EF74D495 /* e-999-Available-Captures-for-Rook.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		9176BBAB221F4A0A49FE0E31 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9176BE55056A93B071CACD0B /* e-67-Add-Binary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-67-Add-Binary.swift"; sourceTree = "<group>"; };
 		BF93E273B6EB9788655FF0C6 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		BF93EA88BB00F490EF74D495 /* e-999-Available-Captures-for-Rook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-999-Available-Captures-for-Rook.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 		9176B674E532FB8BCF715602 /* TreeNode */ = {
 			isa = PBXGroup;
 			children = (
+				BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */,
 			);
 			path = TreeNode;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				9176B1B98F3BFA77558B6F52 /* m-2-Add-Two-Numbers.swift in Sources */,
 				BF93E60741D5D7D206F6354C /* ListNode.swift in Sources */,
 				BF93E766B6A9A543D91C70A9 /* e-999-Available-Captures-for-Rook.swift in Sources */,
+				BF93E555E9275993B36DFA41 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
