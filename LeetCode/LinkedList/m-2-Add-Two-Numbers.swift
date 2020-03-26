@@ -8,38 +8,8 @@
 
 import Foundation
 
-fileprivate class ListNode {
+extension Solution {
     
-    var val: Int
-    var next: ListNode?
-    
-    init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-    
-    /// 使用数组进行初始化
-    init?(_ vals: [Int]) {
-        
-        guard !vals.isEmpty else { return nil }
-
-        let node = ListNode(vals[0])
-
-        var next: ListNode? = node
-
-        for i in 1 ..< vals.count {
-
-            next!.next = ListNode(vals[i])
-            next = next!.next
-        }
-        
-        self.val = vals[0]
-        self.next = node.next
-    }
-}
-
-fileprivate class _2 {
-
     /// 2. 两数相加 中等
     /// 
     /// 给出两个 非空 的链表用来表示两个非负的整数。
@@ -94,7 +64,7 @@ fileprivate class _2 {
         return head
     }
     
-    func solution() {
+    func _2() {
         
         let l1 = ListNode([9])
         let l2 = ListNode([9,9])
@@ -107,5 +77,3 @@ fileprivate class _2 {
         print(result?.next?.next?.next?.val as Any)
     }
 }
-
-_2().solution()

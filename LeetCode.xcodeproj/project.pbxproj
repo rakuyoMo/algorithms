@@ -13,6 +13,7 @@
 		9176BA8F7AFF185136612664 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176BBAB221F4A0A49FE0E31 /* main.swift */; };
 		9176BAB9156323D45AE464C6 /* e-876-Middle-of-the-Linked-List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176B5FF3EFF31BB7ED95AF3 /* e-876-Middle-of-the-Linked-List.swift */; };
 		9176BD5570EBF92E5BB246AA /* e-67-Add-Binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176BE55056A93B071CACD0B /* e-67-Add-Binary.swift */; };
+		BF93E60741D5D7D206F6354C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E273B6EB9788655FF0C6 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		9176BB74BB7D94436B9A1630 /* e-892-Surface-Area-of-3D-Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-892-Surface-Area-of-3D-Shapes.swift"; sourceTree = "<group>"; };
 		9176BBAB221F4A0A49FE0E31 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9176BE55056A93B071CACD0B /* e-67-Add-Binary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-67-Add-Binary.swift"; sourceTree = "<group>"; };
+		BF93E273B6EB9788655FF0C6 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				9176B5FF3EFF31BB7ED95AF3 /* e-876-Middle-of-the-Linked-List.swift */,
 				9176B1BA330F3F7FEA293CFD /* m-2-Add-Two-Numbers.swift */,
+				BF93E273B6EB9788655FF0C6 /* ListNode.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				9176BD5570EBF92E5BB246AA /* e-67-Add-Binary.swift in Sources */,
 				9176B369FDCFBC8B3C43A4B0 /* e-892-Surface-Area-of-3D-Shapes.swift in Sources */,
 				9176B1B98F3BFA77558B6F52 /* m-2-Add-Two-Numbers.swift in Sources */,
+				BF93E60741D5D7D206F6354C /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class _892 {
+extension Solution {
     
     /// 892. 三维形体的表面积 简单
     /// 
@@ -28,7 +28,7 @@ class _892 {
         var faceCount = 0
         
         for i in 0 ..< grid.count {
-
+            
             let tmp = grid[i]
             
             for j in 0 ..< tmp.count {
@@ -55,7 +55,7 @@ class _892 {
         return faceCount
     }
     
-    func solution() {
+    func _892() {
         
         print(surfaceArea([[], []])) // 0
         print(surfaceArea([[2]])) // 10
@@ -65,5 +65,3 @@ class _892 {
         print(surfaceArea([[2,2,2],[2,1,2],[2,2,2]])) // 46
     }
 }
-
-_892().solution()

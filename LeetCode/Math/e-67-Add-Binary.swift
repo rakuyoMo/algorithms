@@ -8,7 +8,7 @@
 
 import Foundation
 
-class _67 {
+extension Solution {
     
     /// 67. 二进制求和 简单
     /// 
@@ -45,7 +45,7 @@ class _67 {
         var result: [String] = []
         
         for i in 0 ..< first.count {
-
+            
             let index = first.count - i - 1
             
             if first[index] == "0" && scond[index] == "0" {
@@ -91,12 +91,10 @@ class _67 {
         return result.reversed().joined()
     }
     
-    func solution() {
+    func _67() {
         
         print(addBinary("1", "111")) // 1000
         print(addBinary("11", "1")) // "100"
         print(addBinary("1010", "1011")) // "10101"
     }
 }
-
-_67().solution()

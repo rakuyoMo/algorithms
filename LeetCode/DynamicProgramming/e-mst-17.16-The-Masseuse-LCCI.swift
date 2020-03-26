@@ -8,7 +8,7 @@
 
 import Foundation
 
-class _17_16 {
+extension Solution {
     
     /// 面试题 17.16. 按摩师 简单
     /// 
@@ -39,14 +39,11 @@ class _17_16 {
         }
     }
     
-    func solution() {
+    func _17_16() {
         
         print(massage([0])) // 0
         print(massage([1,2,3,1])) // 4
         print(massage([2,7,9,3,1])) // 12
         print(massage([2,1,4,5,3,1,1,3])) // 12
-        
     }
 }
-
-_17_16().solution()
