@@ -9,122 +9,98 @@
 import Foundation
 
 fileprivate class ListNode {
+    
     var val: Int
     var next: ListNode?
+    
     init(_ val: Int) {
         self.val = val
         self.next = nil
     }
+    
+    /// 使用数组进行初始化
+    init?(_ vals: [Int]) {
+        
+        guard !vals.isEmpty else { return nil }
+
+        let node = ListNode(vals[0])
+
+        var next: ListNode? = node
+
+        for i in 1 ..< vals.count {
+
+            next!.next = ListNode(vals[i])
+            next = next!.next
+        }
+        
+        self.val = vals[0]
+        self.next = node.next
+    }
 }
 
 fileprivate class _2 {
-    
-    
+
+    /// 2. 两数相加 中等
+    /// 
+    /// 给出两个 非空 的链表用来表示两个非负的整数。
+    /// 其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
+    ///
+    /// 如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
+    /// 
+    /// 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
+    /// 
+    /// - Parameters:
+    ///   - l1: 第一个数
+    ///   - l2: 第二个数
+    /// - Returns: 合链表
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
-        if l1?.val == 0 && l2?.val == 0 { return l1 }
-        if l1?.val == 0 { return l2 }
-        if l2?.val == 0 { return l1 }
+        var first: ListNode? = l1
+        var second: ListNode? = l2
         
-        var l1Node = l1?.next
-        var l2Node = l2?.next
+        var head: ListNode? = nil
+        var next: ListNode? = nil
+        
         var diff = 0
         
-        func calculate(_ value1: Int, _ value2: Int) -> Int {
-
-            var value = value1 + value2 + diff
-
-            if value >= 10 {
+        while first != nil || second != nil || diff != 0 {
+            
+            // 求和
+            var result = (first?.val ?? 0) + (second?.val ?? 0) + diff
+            
+            // 判断进位
+            if result >= 10 {
+                result -= 10
+                diff = 1
                 
-                value = abs(10 - value)
-                diff += 1
-
             } else {
                 diff = 0
             }
             
-            return value
-        }
-        
-        let result = ListNode(calculate(l1!.val, l2!.val))
-        var next: ListNode? = result
-        
-        while l1Node != nil {
-            
-            guard l2Node != nil else {
-                next?.next = ListNode(calculate(l1Node!.val, 0))
-                break
+            if head == nil {
+                head = ListNode(result)
+                next = head
+                
+            } else {
+                
+                next?.next = ListNode(result)
+                next = next?.next
             }
             
-            next!.next = ListNode(calculate(l1Node!.val, l2Node!.val))
-            next = next!.next
-            
-            l1Node = l1Node!.next
-            
-            guard l1Node != nil else {
-                next!.next = l2Node!.next
-                break
-            }
-            
-            l2Node = l2Node!.next
+            first = first?.next
+            second = second?.next
         }
         
-        // TODO: 这里的有问题，栗子 1 + 99
-        if diff != 0 {
-            next?.next = ListNode(diff)
-        }
-        
-        return result
+        return head
     }
-    
-//    func helper(nums: [Int]) -> ListNode? {
-//        
-//        guard !nums.isEmpty else { return nil }
-//        
-//        let node = ListNode(nums[0])
-//        
-//        var next: ListNode? = node
-//        
-//        for i in 1 ..< nums.count {
-//            
-//            next!.next = ListNode(nums[i])
-//            next = next!.next
-//        }
-//        
-//        return node
-//    }
     
     func solution() {
         
-//        let node = helper(nums: [2, 4, 3])
-//        
-//        print(node?.val as Any)
-//        print(node?.next?.val as Any)
-//        print(node?.next?.next?.val as Any)
+        let l1 = ListNode([9])
+        let l2 = ListNode([9,9])
         
+        let result = addTwoNumbers(l1, l2)
         
-//        let l1 = ListNode(2)
-//        l1.next = ListNode(4)
-//        l1.next?.next = ListNode(3)
-//
-//        let l2 = ListNode(5)
-//        l2.next = ListNode(6)
-//        l2.next?.next = ListNode(4)
-//
-//        let result = addTwoNumbers(l1, l2)
-//
-//        print(result?.val as Any)
-//        print(result?.next?.val as Any)
-//        print(result?.next?.next?.val as Any)
-//        print(result?.next?.next?.next?.val as Any)
-
-        let l2 = ListNode(1)
-        
-        let l1 = ListNode(9)
-        l1.next = ListNode(9)
-        
-        let result = addTwoNumbers(l2, l1)
-
         print(result?.val as Any)
         print(result?.next?.val as Any)
         print(result?.next?.next?.val as Any)
