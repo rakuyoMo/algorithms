@@ -16,6 +16,7 @@
 		BF93E555E9275993B36DFA41 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */; };
 		BF93E60741D5D7D206F6354C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E273B6EB9788655FF0C6 /* ListNode.swift */; };
 		BF93E766B6A9A543D91C70A9 /* e-999-Available-Captures-for-Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93EA88BB00F490EF74D495 /* e-999-Available-Captures-for-Rook.swift */; };
+		BF93EA064A1331D132D1F744 /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E55343CEA3678286405E /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift */; };
 		BF93EB2A56D9B21876282741 /* m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E0580D6961C5D1635A64 /* m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		9176BE55056A93B071CACD0B /* e-67-Add-Binary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-67-Add-Binary.swift"; sourceTree = "<group>"; };
 		BF93E0580D6961C5D1635A64 /* m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift"; sourceTree = "<group>"; };
 		BF93E273B6EB9788655FF0C6 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		BF93E55343CEA3678286405E /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift"; sourceTree = "<group>"; };
 		BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		BF93EA88BB00F490EF74D495 /* e-999-Available-Captures-for-Rook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-999-Available-Captures-for-Rook.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				BF93EA88BB00F490EF74D495 /* e-999-Available-Captures-for-Rook.swift */,
+				BF93E55343CEA3678286405E /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				BF93E766B6A9A543D91C70A9 /* e-999-Available-Captures-for-Rook.swift in Sources */,
 				BF93E555E9275993B36DFA41 /* TreeNode.swift in Sources */,
 				BF93EB2A56D9B21876282741 /* m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift in Sources */,
+				BF93EA064A1331D132D1F744 /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
