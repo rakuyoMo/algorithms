@@ -47,6 +47,8 @@ extension Solution {
      *  实际上可以直接用 Set 来做。
      *
      *  判断集合中的字符串，是否是数组中元素的后缀。
+     *
+     *  保留所有 **不是其他单词后缀的单词**
      */
     func minimumLengthEncoding2(_ words: [String]) -> Int {
         
@@ -67,8 +69,65 @@ extension Solution {
         return good.reduce(0) { $0 + $1.count + 1 }
     }
     
+    func minimumLengthEncoding3(_ words: [String]) -> Int {
+        
+        let trie = TrieNode()
+        var nodes = [TrieNode: Int]()
+        
+        words.enumerated().forEach { (index, word) in
+            var cur = trie
+            word.reversed().forEach {
+                cur = cur.get(character: $0)
+            }
+            print(cur)
+            nodes[cur] = index
+        }
+        
+        print(nodes)
+        
+        var ans = 0
+        nodes.forEach { (trie, index) in
+            if trie.count == 0 {
+                ans += words[nodes[trie]!].count + 1
+            }
+        }
+        return ans
+    }
+    
     func _820() {
         
-        print(minimumLengthEncoding2(["time", "me", "bell"])) // 10
+        print(minimumLengthEncoding3(["time", "me", "bell"])) // 10
     }
 }
+
+class TrieNode: Hashable {
+    
+    var children: [TrieNode?] = [TrieNode?](repeating: nil, count: 26)
+    var count: Int = 0
+    
+    func get(character c: Character) -> TrieNode {
+        guard let cValue = c.asciiValue else {
+            return self
+        }
+        let index = Int(cValue - Character("a").asciiValue!)
+        if let child = children[index] {
+            return child
+        } else {
+            children[index] = TrieNode()
+            count += 1
+            return children[index]!
+        }
+    }
+    
+    //MARK: - Hashable
+    public static func == (lhs: TrieNode, rhs: TrieNode) -> Bool {
+        let lhsPointer = Unmanaged.passUnretained(lhs).toOpaque()
+        let rhsPointer = Unmanaged.passUnretained(rhs).toOpaque()
+        return lhsPointer == rhsPointer
+    }
+    
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(Unmanaged.passUnretained(self).toOpaque())
+    }
+}
+
