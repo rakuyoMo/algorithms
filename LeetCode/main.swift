@@ -14,10 +14,11 @@ let solution = Solution()
 
 //solution._2()
 //solution._67()
-solution._236()
+//solution._236()
 //solution._892()
 //solution._876()
 //solution._999()
+solution._1162()
 
 //solution._17_16()
 
