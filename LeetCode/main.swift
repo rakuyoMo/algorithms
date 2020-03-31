@@ -18,9 +18,10 @@ let solution = Solution()
 //solution._820()
 //solution._892()
 //solution._876()
+solution._912()
 //solution._914()
 //solution._999()
-solution._1162()
+//solution._1162()
 
 //solution._17_16()
 
