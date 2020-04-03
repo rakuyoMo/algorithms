@@ -12,6 +12,8 @@ extension Solution {
 
     /// 1162. 地图分析 中等
     /// 
+    /// [url](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)
+    /// 
     /// 你现在手里有一份大小为 N x N 的『地图』（网格） grid，
     /// 上面的每个『区域』（单元格）都用 0 和 1 标记好了。
     /// 其中 0 代表海洋，1 代表陆地，你知道距离陆地区域最远的海洋区域是是哪一个吗？

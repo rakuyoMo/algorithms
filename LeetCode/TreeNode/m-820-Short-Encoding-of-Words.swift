@@ -12,6 +12,8 @@ extension Solution {
     
     /// 820. 单词的压缩编码 中等
     /// 
+    /// [url](https://leetcode-cn.com/problems/short-encoding-of-words/)
+    /// 
     /// 给定一个单词列表，我们将这个列表编码成一个索引字符串 `S` 与一个索引列表 `A`。
     /// 
     /// 例如，如果这个列表是 `["time", "me", "bell"]`，
