@@ -13,8 +13,9 @@ class Solution {}
 let solution = Solution()
 
 //solution._2()
+solution._42()
 //solution._67()
-solution._104()
+//solution._104()
 //solution._236()
 //solution._289()
 //solution._820()
@@ -27,4 +28,3 @@ solution._104()
 //solution._1162()
 
 //solution._17_16()
-
