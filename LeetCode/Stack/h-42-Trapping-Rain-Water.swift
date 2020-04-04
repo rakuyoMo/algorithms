@@ -84,11 +84,60 @@ extension Solution {
         
         return result
     }
+
+    /// 双指针解法
+    func trap2(_ height: [Int]) -> Int {
+        
+        guard !height.isEmpty else { return 0 }
+        
+        // 最终结果
+        var sum = 0
+        
+        // 左边的最大值
+        var maxLeft = 0
+        
+        // 右边的最大值
+        var maxRight = 0
+        
+        // 左边指针的索引
+        var left = 1
+        
+        // 右边指针的索引，-2 是要把右指针也计算上，因为后面要 +1
+        var right = height.count - 2
+        
+        for _ in 1 ..< height.count {
+            
+            // 从左到右更
+            if height[left - 1] < height[right + 1] {
+                
+                maxLeft = max(maxLeft, height[left - 1])
+                
+                if maxLeft > height[left] {
+                    sum += (maxLeft - height[left])
+                }
+
+                left += 1
+
+                // 从右到左更
+            } else {
+                
+                maxRight = max(maxRight, height[right + 1])
+
+                if maxRight > height[right] {
+                    sum += (maxRight - height[right])
+                }
+                
+                right -= 1
+            }
+        }
+        
+        return sum
+    }
     
     func _42() {
         
-        print(trap([1])) // 0
-        print(trap([4,2,3])) // 1
-        print(trap([0,1,0,2,1,0,1,3,2,1,2,1])) // 6
+        print(trap2([1])) // 0
+        print(trap2([4,2,3])) // 1
+        print(trap2([0,1,0,2,1,0,1,3,2,1,2,1])) // 6
     }
 }
