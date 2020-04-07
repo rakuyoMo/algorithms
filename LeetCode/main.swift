@@ -26,6 +26,7 @@ let solution = Solution()
 //solution._999()
 //solution._1111()
 //solution._1162()
-solution._5195()
+//solution._5195()
 
+solution._01_07()
 //solution._17_16()
