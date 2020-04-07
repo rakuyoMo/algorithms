@@ -36,6 +36,25 @@ extension Solution {
         matrix = newMatrix
     }
     
+    func rotate2(_ matrix: inout [[Int]]) {
+        
+        let n = matrix.count
+        
+        // 对角线交换
+        for i in 0 ..< n {
+            for j in i + 1 ..< matrix[i].count {
+                (matrix[i][j], matrix[j][i]) = (matrix[j][i], matrix[i][j])
+            }
+        }
+        
+        // 每一行以中点进行翻转
+        for i in 0 ..< n { 
+            for j in 0 ..< matrix[i].count >> 1 {
+                (matrix[i][j], matrix[i][n - 1 - j]) = (matrix[i][n - 1 - j], matrix[i][j])
+            }
+        }
+    }
+    
     func _01_07() {
         
         var matrix = [
@@ -44,7 +63,7 @@ extension Solution {
               [7,8,9]
             ]
         
-        rotate(&matrix)
+        rotate2(&matrix)
         
         print(matrix)
         
@@ -55,7 +74,7 @@ extension Solution {
               [15,14,12,16]
             ]
         
-        rotate(&matrix2)
+        rotate2(&matrix2)
         
         print(matrix2)
     }
