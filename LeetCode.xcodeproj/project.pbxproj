@@ -23,6 +23,7 @@
 		BF93E60741D5D7D206F6354C /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E273B6EB9788655FF0C6 /* ListNode.swift */; };
 		BF93E7038EBC9F13D6AEAD7A /* m-820-Short-Encoding-of-Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E87DEA1FAF1309A5630E /* m-820-Short-Encoding-of-Words.swift */; };
 		BF93E766B6A9A543D91C70A9 /* e-999-Available-Captures-for-Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93EA88BB00F490EF74D495 /* e-999-Available-Captures-for-Rook.swift */; };
+		BF93E7B7AD61FEF6F0D8A5B8 /* m-151-Reverse-Words-in-a-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E537FEC4059C3AFFAA89 /* m-151-Reverse-Words-in-a-String.swift */; };
 		BF93E88BEB169223A3B503E1 /* m-289-Game-of-Life.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E4521B8C8CCDB1D32199 /* m-289-Game-of-Life.swift */; };
 		BF93E969F789D657117996A7 /* e-104-Maximum-Depth-of-Binary-Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93ECCD567D647C694749A0 /* e-104-Maximum-Depth-of-Binary-Tree.swift */; };
 		BF93EA064A1331D132D1F744 /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93E55343CEA3678286405E /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift */; };
@@ -56,6 +57,7 @@
 		BF93E0580D6961C5D1635A64 /* m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift"; sourceTree = "<group>"; };
 		BF93E273B6EB9788655FF0C6 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		BF93E4521B8C8CCDB1D32199 /* m-289-Game-of-Life.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-289-Game-of-Life.swift"; sourceTree = "<group>"; };
+		BF93E537FEC4059C3AFFAA89 /* m-151-Reverse-Words-in-a-String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-151-Reverse-Words-in-a-String.swift"; sourceTree = "<group>"; };
 		BF93E55343CEA3678286405E /* e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "e-914-X-of-a-Kind-in-a-Deck-of-Cards.swift"; sourceTree = "<group>"; };
 		BF93E606064069E078F9767D /* m-mst-01.07-Rotate-Matrix-LCCI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-mst-01.07-Rotate-Matrix-LCCI.swift"; sourceTree = "<group>"; };
 		BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 		9176B7B26FF108AA7D3A08E9 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				BF93E537FEC4059C3AFFAA89 /* m-151-Reverse-Words-in-a-String.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				9176B49FDA5CA253121800A1 /* h-42-Trapping-Rain-Water.swift in Sources */,
 				9176B0D12D175753D6A60BDC /* m-5195-Longest-Happy-String.swift in Sources */,
 				BF93E34102E620A855F49FB5 /* m-mst-01.07-Rotate-Matrix-LCCI.swift in Sources */,
+				BF93E7B7AD61FEF6F0D8A5B8 /* m-151-Reverse-Words-in-a-String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
