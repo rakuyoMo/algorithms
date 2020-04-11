@@ -22,7 +22,7 @@ class TreeNode {
     }
     
     /// 使用数组，以深度优先的顺序创建二叉树
-    init?(preOrder vals: [Int?]) {
+    init?(dfs vals: [Int?]) {
         
         var index = 0
         
