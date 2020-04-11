@@ -152,7 +152,7 @@
 				9176B9215C99350E4C40ED1D /* Queue */,
 				9176B257B3573471487F506B /* LinkedList */,
 				9176BBE3AAC05B018D9056BE /* Backtracking */,
-				9176BDBEAE0A329BEB94AD91 /* GreedyAlgorithm */,
+				9176BDBEAE0A329BEB94AD91 /* Greedy */,
 				9176BA03E5C9DDDAD01805FF /* HashTable */,
 				9176B7B26FF108AA7D3A08E9 /* String */,
 				9176B1848579A0FF631CDBD9 /* BitManipulation */,
@@ -160,7 +160,7 @@
 				9176B36579CE8E801DE9849D /* BreadthFirstSearch */,
 				9176B4CF56A0A105BA60A6D8 /* DepthFirstSearch */,
 				9176BB8543D925FC5C7A74D0 /* Heap */,
-				9176B674E532FB8BCF715602 /* TreeNode */,
+				9176B674E532FB8BCF715602 /* Tree */,
 				9176B7DB78588FC2310CD1A8 /* Recursion */,
 				9176B43FD48C92215379A1AD /* DoublePointer */,
 				9176B947FFC6040E199AC856 /* DynamicProgramming */,
@@ -191,7 +191,7 @@
 			path = Array;
 			sourceTree = "<group>";
 		};
-		9176B674E532FB8BCF715602 /* TreeNode */ = {
+		9176B674E532FB8BCF715602 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
 				BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */,
@@ -199,7 +199,7 @@
 				BF93E87DEA1FAF1309A5630E /* m-820-Short-Encoding-of-Words.swift */,
 				BF93ECCD567D647C694749A0 /* e-104-Maximum-Depth-of-Binary-Tree.swift */,
 			);
-			path = TreeNode;
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		9176B7B26FF108AA7D3A08E9 /* String */ = {
@@ -284,13 +284,13 @@
 			path = SlidingWindow;
 			sourceTree = "<group>";
 		};
-		9176BDBEAE0A329BEB94AD91 /* GreedyAlgorithm */ = {
+		9176BDBEAE0A329BEB94AD91 /* Greedy */ = {
 			isa = PBXGroup;
 			children = (
 				BF93E894FCD30A536D0E7335 /* m-1111-Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings.swift */,
 				9176B0BE7BE4A92D5D315437 /* m-5195-Longest-Happy-String.swift */,
 			);
-			path = GreedyAlgorithm;
+			path = Greedy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
