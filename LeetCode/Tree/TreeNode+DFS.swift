@@ -65,6 +65,11 @@ extension TreeNode {
         
         dfs(self, level: 0, result: &result)
         
+        result = result.filter {
+            for i in $0 { if i != -1 { return true } }
+            return false
+        }
+        
         var string = result.description
         
         string.removeFirst()
