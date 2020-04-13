@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A30688B244409E80033330C /* TreeNode+BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A30688A244409E80033330C /* TreeNode+BFS.swift */; };
 		9176B0D12D175753D6A60BDC /* m-5195-Longest-Happy-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176B0BE7BE4A92D5D315437 /* m-5195-Longest-Happy-String.swift */; };
 		9176B1B98F3BFA77558B6F52 /* m-2-Add-Two-Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176B1BA330F3F7FEA293CFD /* m-2-Add-Two-Numbers.swift */; };
 		9176B1E165AF035D1ACCFF34 /* m-1162-As-Far-from-Land-as-Possible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176B6E38961400FE461D1AA /* m-1162-As-Far-from-Land-as-Possible.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A30688A244409E80033330C /* TreeNode+BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TreeNode+BFS.swift"; sourceTree = "<group>"; };
 		9176B0BE7BE4A92D5D315437 /* m-5195-Longest-Happy-String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-5195-Longest-Happy-String.swift"; sourceTree = "<group>"; };
 		9176B150F0160268042FDE75 /* m-5381-Queries-on-a-Permutation-With-Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-5381-Queries-on-a-Permutation-With-Key.swift"; sourceTree = "<group>"; };
 		9176B1BA330F3F7FEA293CFD /* m-2-Add-Two-Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "m-2-Add-Two-Numbers.swift"; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			children = (
 				BF93E73B5A6EEDE341E3ADEC /* TreeNode.swift */,
 				BF93E49F5FF482E8BCC99174 /* TreeNode+DFS.swift */,
+				3A30688A244409E80033330C /* TreeNode+BFS.swift */,
 				BF93E0580D6961C5D1635A64 /* m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.swift */,
 				BF93ECCD567D647C694749A0 /* e-104-Maximum-Depth-of-Binary-Tree.swift */,
 			);
@@ -385,6 +388,7 @@
 				BF93E34102E620A855F49FB5 /* m-mst-01.07-Rotate-Matrix-LCCI.swift in Sources */,
 				BF93E7B7AD61FEF6F0D8A5B8 /* m-151-Reverse-Words-in-a-String.swift in Sources */,
 				BF93E77B6EC5641025D6DA58 /* m-22-Generate-Parentheses.swift in Sources */,
+				3A30688B244409E80033330C /* TreeNode+BFS.swift in Sources */,
 				BF93EA0D7085FD4DE89A0992 /* m-820-Short-Encoding-of-Words.swift in Sources */,
 				9176B25A0FE7CF1C227052D4 /* e-5380-String-Matching-in-an-Array.swift in Sources */,
 				9176B455E0EF8F460E2C4AD8 /* m-5381-Queries-on-a-Permutation-With-Key.swift in Sources */,

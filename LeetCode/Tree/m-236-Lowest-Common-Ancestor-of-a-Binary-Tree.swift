@@ -35,18 +35,16 @@ extension Solution {
     
     func _236() {
         
-        if let dfs = TreeNode(dfs: [1, 2, 3, 4, nil, nil, 5, nil, nil, nil, 6, 7, nil, 8, nil, nil, 9]) {
-            print(dfs.dfsDescription) 
+        if let dfs = TreeNode(dfs: [1,2,3,4,nil,nil,5,nil,nil,nil,6,7,nil,8,nil,nil,9]) {
+            print(dfs.bfsDescription)
+            print(dfs.dfsDescription)
         }
         
+        print("------------------------------------------------")
         
-        
-//        let node = TreeNode(dfs: [3,5,1,6,2,0,8,nil,nil,7,4])
-//        
-//        print(node?.levelOrder())
-        
-//        print(node?.val)
-//        print(node?.left?.val)
-//        print(node?.right?.val)
+        if let bfs = TreeNode(bfs: [3,5,1,6,2,0,8,nil,nil,7,4]) {
+            print(bfs.bfsDescription)
+            print(bfs.dfsDescription)
+        }
     }
 }
