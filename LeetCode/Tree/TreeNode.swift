@@ -21,3 +21,10 @@ class TreeNode {
         self.right = nil
     }
 }
+
+extension TreeNode: Equatable {
+    
+    static func ==(lhs: TreeNode, rhs: TreeNode) -> Bool {
+        return lhs === rhs
+    }
+}
