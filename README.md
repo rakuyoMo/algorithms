@@ -1,6 +1,6 @@
 # LeetCode
  
- The purpose of this project is to use the Swift language to solve the problems on the [LeetCode-cn](https://leetcode-cn.com) and provide an answer.
+ The purpose of this project is to use the [Swift language](https://swift.org) to solve the problems on the [LeetCode-cn](https://leetcode-cn.com) and provide an answer.
 
 ## Prerequisites
 
