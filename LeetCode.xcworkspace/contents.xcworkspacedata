@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Source/Greedy.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/Tree.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/Array.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/Trie.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/DynamicProgramming.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/BreadthFirstSearch.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/Stack.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/String.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/Math.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/LinkedList.playground">
+   </FileRef>
+</Workspace>
