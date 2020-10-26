@@ -19,6 +19,7 @@
 | --- | --- | :---: |
 | [914](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/e-914-X-of-a-Kind-in-a-Deck-of-Cards.xcplaygroundpage/Contents.swift) | X of a Kind in a Deck of Cards | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
 | [999](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/e-999-Available-Captures-for-Rook.xcplaygroundpage/Contents.swift) | Available Captures forRook | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
+| [1365](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/e-1365-How-Many-Numbers-Are-Smaller.xcplaygroundpage/Contents.swift) | How Many Numbers Are Smaller | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
 | [289](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-289-Game-of-Life.xcplaygroundpage/Contents.swift) | Game of Life | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 | [912](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-912-Sort-an-Array.xcplaygroundpage/Contents.swift) | Sort an Array | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 | [5381](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-5381-Queries-on-a-Permutation-With-Key.xcplaygroundpage/Contents.swift) | Queries on a Permutation With Key | ![Medium](https://img.shields.io/badge/-Medium-orange) |
