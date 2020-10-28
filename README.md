@@ -37,6 +37,12 @@
 | --- | --- | :---: |
 | [mst-17.16](https://github.com/rakuyoMo/LeetCode/blob/master/Source/DynamicProgramming.playground/Pages/e-mst-17.16-The-Masseuse-LCCI.xcplaygroundpage/Contents.swift) | The Masseuse LCCI | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
 
+### HashTable
+
+| # | Title | Difficulty |
+| --- | --- | :---: |
+| [1207](https://github.com/rakuyoMo/LeetCode/blob/master/Source/HashTable.playground/Pages/e-1207-Unique-Number-of-Occurrences.xcplaygroundpage/Contents.swift) | Unique Number of Occurrences | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
+
 ### Greedy
 
 | # | Title | Difficulty |

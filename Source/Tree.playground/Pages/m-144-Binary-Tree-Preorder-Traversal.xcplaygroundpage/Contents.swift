@@ -67,5 +67,10 @@ let node1 = TreeNode(1, nil, node2)
 
 print(preorderTraversal2(node1))
 
+enum Test: String {
+    
+    case a = ""
+}
+
 
 //: [Next](@next)

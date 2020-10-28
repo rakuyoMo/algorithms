@@ -5,6 +5,9 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:Source/HashTable.playground">
+   </FileRef>
+   <FileRef
       location = "group:Source/Greedy.playground">
    </FileRef>
    <FileRef
