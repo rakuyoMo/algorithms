@@ -84,6 +84,7 @@
 | # | Title | Difficulty |
 | --- | --- | :---: |
 | [104](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Tree.playground/Pages/e-104-Maximum-Depth-of-Binary-Tree.xcplaygroundpage/Contents.swift) | Maximum Depth of Binary Tree | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
+| [129](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Tree.playground/Pages/m-129-Sum-Root-to-Leaf-Numbers.xcplaygroundpage/Contents.swift) | Sum Root to Leaf Numbers | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 | [144](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Tree.playground/Pages/m-144-Binary-Tree-Preorder-Traversal.xcplaygroundpage/Contents.swift) | Binary Tree Preorder Traversal | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 | [236](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Tree.playground/Pages/m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.xcplaygroundpage/Contents.swift) | Lowest Common Ancestor of a Binary Tree | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 
