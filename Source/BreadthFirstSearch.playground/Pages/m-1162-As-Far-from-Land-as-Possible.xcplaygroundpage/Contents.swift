@@ -63,6 +63,8 @@ func maxDistance(_ grid: [[Int]]) -> Int {
     return result
 }
 
+// MARK: - Test
+
 print(maxDistance([[1,0,1],[0,0,0],[1,0,1]])) // 2
 print(maxDistance([[1,0,0],[0,0,0],[0,0,0]])) // 4
 print(maxDistance([[1,0,0,0],[0,0,0,0],[0,0,1,1],[1,0,0,0]])) // 2

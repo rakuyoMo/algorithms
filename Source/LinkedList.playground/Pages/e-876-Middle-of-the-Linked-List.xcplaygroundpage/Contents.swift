@@ -25,6 +25,8 @@ func middleNode(_ head: ListNode?) -> ListNode? {
     return slow
 }
 
+// MARK: - Test
+
 let node = ListNode([3, 4, 5, 6])
 
 print(String(describing: middleNode(node)?.val))

@@ -114,6 +114,8 @@ func helper(
     }.map { $0.joined() }.joined()
 }
 
+// MARK: - Test
+
 print(longestDiverseString(1, 8, 12)) // "ccbccbccbbccbbccbbcca"
 print(longestDiverseString(1, 1, 7))  // "ccaccbcc"
 print(longestDiverseString(0, 0, 0))  // "abc"

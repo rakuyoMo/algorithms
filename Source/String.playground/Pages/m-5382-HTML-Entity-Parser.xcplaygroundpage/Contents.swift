@@ -89,6 +89,8 @@ func entityParser2(_ text: String) -> String {
     return string
 }
 
+// MARK: - Test
+
 // "& is an HTML entity but &ambassador; is not."
 print(entityParser("&amp; is an HTML entity but &ambassador; is not."))
 

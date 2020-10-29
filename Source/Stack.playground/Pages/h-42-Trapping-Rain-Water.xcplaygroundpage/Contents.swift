@@ -126,6 +126,8 @@ func trap2(_ height: [Int]) -> Int {
     return sum
 }
 
+// MARK: - Test
+
 print(trap2([1])) // 0
 print(trap2([4,2,3])) // 1
 print(trap2([0,1,0,2,1,0,1,3,2,1,2,1])) // 6

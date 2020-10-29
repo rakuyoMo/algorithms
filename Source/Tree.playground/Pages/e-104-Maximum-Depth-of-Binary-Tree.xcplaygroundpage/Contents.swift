@@ -18,6 +18,8 @@ func maxDepth(_ root: TreeNode?) -> Int {
     return root == nil ? 0 : max(maxDepth(root?.left), maxDepth(root?.right)) + 1
 }
 
+// MARK: - Test
+
 let root = TreeNode(3)
 root.left = TreeNode(9)
 root.right = TreeNode(20)

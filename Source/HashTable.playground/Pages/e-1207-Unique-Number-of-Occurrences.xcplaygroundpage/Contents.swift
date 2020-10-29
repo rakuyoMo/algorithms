@@ -25,6 +25,8 @@ func uniqueOccurrences(_ arr: [Int]) -> Bool {
     return Set(values).count == values.count
 }
 
+// MARK: - Test
+
 print(uniqueOccurrences([1,2])) // false
 print(uniqueOccurrences([1,2,2,1,1,3])) // true
 print(uniqueOccurrences([-3,0,1,-3,1,1,1,-3,10,0])) // true

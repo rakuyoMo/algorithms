@@ -88,6 +88,8 @@ func minimumLengthEncoding3(_ words: [String]) -> Int {
     return ans
 }
 
+// MARK: - Test
+
 print(minimumLengthEncoding3(["time", "me", "bell"])) // 10
 
 //: [Next](@next)

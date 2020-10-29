@@ -47,6 +47,8 @@ func surfaceArea(_ grid: [[Int]]) -> Int {
     return faceCount
 }
 
+// MARK: - Test
+
 print(surfaceArea([[], []])) // 0
 print(surfaceArea([[2]])) // 10
 print(surfaceArea([[1,2],[3,4]])) // 34

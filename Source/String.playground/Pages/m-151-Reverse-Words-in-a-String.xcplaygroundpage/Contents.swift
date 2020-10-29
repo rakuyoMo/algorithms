@@ -51,6 +51,8 @@ func reverseWords2(_ s: String) -> String {
     return string
 }
 
+// MARK: - Test
+
 print(reverseWords2("the sky is blue")) // "blue is sky the"
 print(reverseWords2("  hello world!  ")) // "world! hello"
 print(reverseWords2("a good   example")) // "example good a"

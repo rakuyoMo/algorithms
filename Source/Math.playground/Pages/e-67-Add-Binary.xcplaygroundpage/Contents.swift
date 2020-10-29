@@ -83,6 +83,8 @@ func addBinary(_ a: String, _ b: String) -> String {
     return result.reversed().joined()
 }
 
+// MARK: - Test
+
 print(addBinary("1", "111")) // 1000
 print(addBinary("11", "1")) // "100"
 print(addBinary("1010", "1011")) // "10101"

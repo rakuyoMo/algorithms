@@ -33,6 +33,8 @@ func massage(_ nums: [Int]) -> Int {
     }
 }
 
+// MARK: - Test
+
 print(massage([0])) // 0
 print(massage([1,2,3,1])) // 4
 print(massage([2,7,9,3,1])) // 12

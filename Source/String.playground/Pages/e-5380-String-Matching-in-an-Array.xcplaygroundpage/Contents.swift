@@ -31,6 +31,8 @@ func stringMatching(_ words: [String]) -> [String] {
     return [String](result)
 }
 
+// MARK: - Test
+
 print(stringMatching(["leetcoder","leetcode","od","hamlet","am"])) // ["leetcode","od","am"]
 print(stringMatching(["mass","as","hero","superhero"])) // ["as","hero"]
 print(stringMatching(["leetcode","et","code"])) // ["et","code"]

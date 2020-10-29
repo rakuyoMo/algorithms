@@ -87,6 +87,8 @@ func maxDepthAfterSplit2(_ seq: String) -> [Int] {
     return ans
 }
 
+// MARK: - Test
+
 print(maxDepthAfterSplit("(()())"))         // [0,1,1,1,1,0]
 print(maxDepthAfterSplit("()(())()"))       // [0,0,0,1,1,0,1,1]
 print(maxDepthAfterSplit("(((()))((())))")) // [0,0,1,1,0,0,1,0,0,1,0,0,1,1]

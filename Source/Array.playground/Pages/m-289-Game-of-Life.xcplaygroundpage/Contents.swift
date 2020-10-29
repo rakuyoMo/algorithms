@@ -104,6 +104,8 @@ private func getLiveCellCount(from board: [[Int]], i: Int, j: Int) -> Int {
     return count
 }
 
+// MARK: - Test
+
 var test1 = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
 gameOfLife(&test1)
 print(test1)

@@ -99,6 +99,8 @@ private func gcd(_ a: Int, _ b: Int) -> Int {
     return a % b == 0 ? b : gcd(b, a % b)
 }
 
+// MARK: - Test
+
 print(hasGroupsSizeX2([1,2,3,4,4,3,2,1])) // true
 print(hasGroupsSizeX2([1,1,1,2,2,2,3,3])) // false
 print(hasGroupsSizeX2([1])) // false

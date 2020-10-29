@@ -38,6 +38,8 @@ func processQueries(_ queries: [Int], _ m: Int) -> [Int] {
     return result
 }
 
+// MARK: - Test
+
 print(processQueries([3,1,2,1], 5)) // [2,1,2,1]
 print(processQueries([4,1,2,2], 4)) // [3,1,2,0]
 print(processQueries([7,5,5,8,3], 8)) // [6,5,0,7,5]

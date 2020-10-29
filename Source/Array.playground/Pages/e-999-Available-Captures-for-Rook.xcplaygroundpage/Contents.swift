@@ -54,6 +54,8 @@ func numRookCaptures(_ board: [[Character]]) -> Int {
     return result
 }
 
+// MARK: - Test
+
 // 3
 print(numRookCaptures(
     [
