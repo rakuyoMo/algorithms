@@ -42,6 +42,7 @@
 | # | Title | Difficulty |
 | --- | --- | :---: |
 | [1207](https://github.com/rakuyoMo/LeetCode/blob/master/Source/HashTable.playground/Pages/e-1207-Unique-Number-of-Occurrences.xcplaygroundpage/Contents.swift) | Unique Number of Occurrences | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
+| [463](https://github.com/rakuyoMo/LeetCode/blob/master/Source/HashTable.playground/Pages/e-463-Island-Perimeter.xcplaygroundpage/Contents.swift) | Island Perimeter | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
 
 ### Greedy
 

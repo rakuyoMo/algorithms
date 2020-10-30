@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' buildActiveScheme='true'/>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='e-463-Island-Perimeter'/>
+        <page name='e-1207-Unique-Number-of-Occurrences'/>
+    </pages>
+</playground>
