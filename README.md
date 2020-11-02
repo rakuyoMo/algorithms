@@ -95,6 +95,12 @@
 | --- | --- | :---: |
 | [820](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Trie.playground/Pages/m-820-Short-Encoding-of-Words.xcplaygroundpage/Contents.swift) | Short Encoding of Words | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 
+### Two Pointers
+
+| # | Title | Difficulty |
+| --- | --- | :---: |
+| [349](https://github.com/rakuyoMo/LeetCode/blob/master/Source/TwoPointers.playground/Pages/e-349-Intersection-of-Two-Arrays.xcplaygroundpage/Contents.swift) | Intersection of Two Arrays | ![Easy](https://img.shields.io/badge/-Easy-brightgreen) |
+
 ## License
 
 `rakuyoMo/LeetCode` is available under the **MIT** license. See the [LICENSE](https://github.com/rakuyoMo/LeetCode/blob/master/LICENSE) file for more info.
