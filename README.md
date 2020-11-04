@@ -25,6 +25,7 @@
 | [912](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-912-Sort-an-Array.xcplaygroundpage/Contents.swift) | Sort an Array | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 | [5381](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-5381-Queries-on-a-Permutation-With-Key.xcplaygroundpage/Contents.swift) | Queries on a Permutation With Key | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 | [mst-01.07](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-mst-01.07-Rotate-Matrix-LCCI.xcplaygroundpage/Contents.swift) | Rotate Matrix LCCI | ![Medium](https://img.shields.io/badge/-Medium-orange) |
+| [57](https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/h-57-Insert-Interval.xcplaygroundpage/Contents.swift) | Insert Interval | ![Hard](https://img.shields.io/badge/-Hard-red) |
 
 ### Breadth First Search
 
