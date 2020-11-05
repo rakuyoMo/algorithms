@@ -31,6 +31,7 @@
 
 | # | Title | Difficulty |
 | --- | --- | :---: |
+| [127](https://github.com/rakuyoMo/LeetCode/blob/master/Source/BreadthFirstSearch.playground/Pages/m-127-Word-Ladder.xcplaygroundpage/Contents.swift) | Word Ladder | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 | [1162](https://github.com/rakuyoMo/LeetCode/blob/master/Source/BreadthFirstSearch.playground/Pages/m-1162-As-Far-from-Land-as-Possible.xcplaygroundpage/Contents.swift) | As Far from Land as Possible | ![Medium](https://img.shields.io/badge/-Medium-orange) |
 
 ### Dynamic Programming
