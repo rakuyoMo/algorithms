@@ -51,6 +51,7 @@
 
 | # | Title | Difficulty |
 | --- | --- | :---: |
+| [55][] | Jump Game | ![Medium][] |
 | [134][] | Gas Station | ![Medium][] |
 | [1111][] | Maximum Nesting Depth of Two Valid Parentheses Strings | ![Medium][] |
 | [5195][] | Longest Happy String | ![Medium][] |
@@ -118,6 +119,7 @@
 [2]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/LinkedList.playground/Pages/m-2-Add-Two-Numbers.xcplaygroundpage/Contents.swift
 [22]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/String.playground/Pages/m-22-Generate-Parentheses.xcplaygroundpage/Contents.swift
 [42]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Stack.playground/Pages/h-42-Trapping-Rain-Water.xcplaygroundpage/Contents.swift
+[55]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-55-Jump-Game.xcplaygroundpage/Contents.swift
 [57]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/h-57-Insert-Interval.xcplaygroundpage/Contents.swift
 [67]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Math.playground/Pages/e-67-Add-Binary.xcplaygroundpage/Contents.swift
 [104]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Tree.playground/Pages/e-104-Maximum-Depth-of-Binary-Tree.xcplaygroundpage/Contents.swift
