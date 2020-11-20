@@ -151,5 +151,5 @@
 
 
 [mst-01.07]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-mst-01.07-Rotate-Matrix-LCCI.xcplaygroundpage/Contents.swift
-[mst-03.02]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/e-mst-03.02-Min-Stack-LCCI.xcplaygroundpage/Contents.swift
+[mst-03.02]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Stack.playground/Pages/e-mst-03.02-Min-Stack-LCCI.xcplaygroundpage/Contents.swift
 [mst-17.16]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/DynamicProgramming.playground/Pages/e-mst-17.16-The-Masseuse-LCCI.xcplaygroundpage/Contents.swift
