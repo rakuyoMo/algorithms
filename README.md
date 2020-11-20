@@ -74,6 +74,7 @@
 
 | # | Title | Difficulty |
 | --- | --- | :---: |
+| [232][] |Implement Queue using Stacks | ![Easy][] |
 | [mst-03.02][] | Min Stack LCCI | ![Easy][] |
 | [42][] | Trapping Rain Water | ![Hard][] |
 
@@ -129,6 +130,7 @@
 [134]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Greedy.playground/Pages/m-134-Gas-Station.xcplaygroundpage/Contents.swift
 [144]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Tree.playground/Pages/m-144-Binary-Tree-Preorder-Traversal.xcplaygroundpage/Contents.swift
 [151]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/String.playground/Pages/m-151-Reverse-Words-in-a-String.xcplaygroundpage/Contents.swift
+[232]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Stack.playground/Pages/e-232-Implement-Queue-using-Stacks.xcplaygroundpage/Contents.swift
 [236]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Tree.playground/Pages/m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.xcplaygroundpage/Contents.swift
 [289]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-289-Game-of-Life.xcplaygroundpage/Contents.swift
 [349]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/TwoPointers.playground/Pages/e-349-Intersection-of-Two-Arrays.xcplaygroundpage/Contents.swift
