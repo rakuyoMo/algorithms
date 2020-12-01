@@ -109,10 +109,6 @@
 | --- | --- | :---: |
 | [349][] | Intersection of Two Arrays | ![Easy][] |
 
-## License
-
-`rakuyoMo/LeetCode` is available under the **MIT** license. For more information, see [LICENSE](https://github.com/rakuyoMo/RaLog/blob/master/LICENSE).
-
 
 
 [Easy]: https://img.shields.io/badge/-Easy-brightgreen
