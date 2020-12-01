@@ -21,6 +21,7 @@
 | [941][] | Valid Mountain Array | ![Easy][] |
 | [999][] | Available Captures forRook | ![Easy][] |
 | [1365][] | How Many Numbers Are Smaller | ![Easy][] |
+| [34][] | Find First and Last Position of Element in Sorted Array | ![Medium][] |
 | [289][] | Game of Life | ![Medium][] |
 | [912][] | Sort an Array | ![Medium][] |
 | [5381][] | Queries on a Permutation With Key | ![Medium][] |
@@ -120,6 +121,7 @@
 
 [2]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/LinkedList.playground/Pages/m-2-Add-Two-Numbers.xcplaygroundpage/Contents.swift
 [22]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/String.playground/Pages/m-22-Generate-Parentheses.xcplaygroundpage/Contents.swift
+[34]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.xcplaygroundpage/Contents.swift
 [42]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Stack.playground/Pages/h-42-Trapping-Rain-Water.xcplaygroundpage/Contents.swift
 [55]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/m-55-Jump-Game.xcplaygroundpage/Contents.swift
 [57]: https://github.com/rakuyoMo/LeetCode/blob/master/Source/Array.playground/Pages/h-57-Insert-Interval.xcplaygroundpage/Contents.swift
