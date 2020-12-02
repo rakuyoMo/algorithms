@@ -2,28 +2,28 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Source/TwoPointers.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Source/HashTable.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Source/Greedy.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Source/Tree.playground">
-   </FileRef>
-   <FileRef
       location = "group:Source/Array.playground">
    </FileRef>
    <FileRef
-      location = "group:Source/Trie.playground">
+      location = "group:Source/BinarySearch.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/BreadthFirstSearch.playground">
    </FileRef>
    <FileRef
       location = "group:Source/DynamicProgramming.playground">
    </FileRef>
    <FileRef
-      location = "group:Source/BreadthFirstSearch.playground">
+      location = "group:Source/Greedy.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/HashTable.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/LinkedList.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/Math.playground">
    </FileRef>
    <FileRef
       location = "group:Source/Stack.playground">
@@ -32,9 +32,12 @@
       location = "group:Source/String.playground">
    </FileRef>
    <FileRef
-      location = "group:Source/Math.playground">
+      location = "group:Source/Tree.playground">
    </FileRef>
    <FileRef
-      location = "group:Source/LinkedList.playground">
+      location = "group:Source/Trie.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Source/TwoPointers.playground">
    </FileRef>
 </Workspace>
