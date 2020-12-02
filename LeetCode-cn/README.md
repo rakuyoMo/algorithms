@@ -21,12 +21,17 @@
 | [941][] | Valid Mountain Array | ![Easy][] |
 | [999][] | Available Captures forRook | ![Easy][] |
 | [1365][] | How Many Numbers Are Smaller | ![Easy][] |
-| [34][] | Find First and Last Position of Element in Sorted Array | ![Medium][] |
 | [289][] | Game of Life | ![Medium][] |
 | [912][] | Sort an Array | ![Medium][] |
 | [5381][] | Queries on a Permutation With Key | ![Medium][] |
 | [mst-01.07][] | Rotate Matrix LCCI | ![Medium][] |
 | [57][] | Insert Interval | ![Hard][] |
+
+### Binary Search
+
+| # | Title | Difficulty |
+| --- | --- | :---: |
+| [34][] | Find First and Last Position of Element in Sorted Array | ![Medium][] |
 
 ### Breadth First Search
 
