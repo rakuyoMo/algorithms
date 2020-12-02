@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true'>
     <pages>
-        <page name='m-55-Jump-Game'/>
-        <page name='m-134-Gas-Station'/>
-        <page name='m-1111-Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings'/>
-        <page name='m-5195-Longest-Happy-String'/>
+        <page name='m-55'/>
+        <page name='m-134'/>
+        <page name='m-1111'/>
+        <page name='m-5195'/>
     </pages>
 </playground>

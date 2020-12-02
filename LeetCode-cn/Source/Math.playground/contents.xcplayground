@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true'>
     <pages>
-        <page name='e-67-Add-Binary'/>
-        <page name='e-892-Surface-Area-of-3D-Shapes'/>
+        <page name='e-67'/>
+        <page name='e-892'/>
     </pages>
 </playground>

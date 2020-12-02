@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true'>
     <pages>
-        <page name='e-278-First-Bad-Version'/>
-        <page name='m-34-Find-First-and-Last-Position-of-Element-in-Sorted-Array'/>
+        <page name='e-278'/>
+        <page name='m-34'/>
     </pages>
 </playground>
