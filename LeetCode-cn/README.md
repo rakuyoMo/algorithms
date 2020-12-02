@@ -31,6 +31,7 @@
 
 | # | Title | Difficulty |
 | --- | --- | :---: |
+| [278][] | First Bad Version | ![Easy][] |
 | [34][] | Find First and Last Position of Element in Sorted Array | ![Medium][] |
 
 ### Breadth First Search
@@ -135,6 +136,8 @@
 [151]: https://github.com/rakuyoMo/LeetCode/blob/master/LeetCode-cn/Source/String.playground/Pages/m-151-Reverse-Words-in-a-String.xcplaygroundpage/Contents.swift
 [232]: https://github.com/rakuyoMo/LeetCode/blob/master/LeetCode-cn/Source/Stack.playground/Pages/e-232-Implement-Queue-using-Stacks.xcplaygroundpage/Contents.swift
 [236]: https://github.com/rakuyoMo/LeetCode/blob/master/LeetCode-cn/Source/Tree.playground/Pages/m-236-Lowest-Common-Ancestor-of-a-Binary-Tree.xcplaygroundpage/Contents.swift
+[278]:
+https://github.com/rakuyoMo/LeetCode/blob/master/LeetCode-cn/Source/BinarySearch.playground/Pages/e-278-First-Bad-Version.xcplaygroundpage/Contents.swift
 [289]: https://github.com/rakuyoMo/LeetCode/blob/master/LeetCode-cn/Source/Array.playground/Pages/m-289-Game-of-Life.xcplaygroundpage/Contents.swift
 [349]: https://github.com/rakuyoMo/LeetCode/blob/master/LeetCode-cn/Source/TwoPointers.playground/Pages/e-349-Intersection-of-Two-Arrays.xcplaygroundpage/Contents.swift
 [463]: https://github.com/rakuyoMo/LeetCode/blob/master/LeetCode-cn/Source/HashTable.playground/Pages/e-463-Island-Perimeter.xcplaygroundpage/Contents.swift
