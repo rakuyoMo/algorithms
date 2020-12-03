@@ -1,15 +1,20 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 旋转矩阵
+ 
+ - 题号：[面试题 01.07](https://leetcode-cn.com/problems/rotate-matrix-lcci/)
+ - 难度：中等
+ - 描述：
+ 
+     给你一幅由 N × N 矩阵表示的图像，其中每个像素的大小为 4 字节。
+     请你设计一种算法，将图像旋转 90 度。
+     
+     不占用额外内存空间能否做到？
+ */
 
+//: ## Code
 import Foundation
 
-/// 面试题 01.07. 旋转矩阵 中等
-///
-/// 给你一幅由 N × N 矩阵表示的图像，其中每个像素的大小为 4 字节。
-/// 请你设计一种算法，将图像旋转 90 度。
-///
-/// 不占用额外内存空间能否做到？
-///
-/// - Parameter matrix:
 func rotate(_ matrix: inout [[Int]]) {
     
     // 占用额外空间
@@ -47,8 +52,7 @@ func rotate2(_ matrix: inout [[Int]]) {
     }
 }
 
-// MARK: - Test
-
+//: ## Test
 var matrix = [
       [1,2,3],
       [4,5,6],
@@ -70,4 +74,4 @@ rotate2(&matrix2)
 
 print(matrix2)
 
-//: [Next](@next)
+//: [下一道题](@next)

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' buildActiveScheme='true'>
     <pages>
-        <page name='e-914-X-of-a-Kind-in-a-Deck-of-Cards'/>
-        <page name='e-941-Valid-Mountain-Array'/>
-        <page name='e-999-Available-Captures-for-Rook'/>
-        <page name='e-1365-How-Many-Numbers-Are-Smaller'/>
-        <page name='m-289-Game-of-Life'/>
-        <page name='m-912-Sort-an-Array'/>
-        <page name='m-5381-Queries-on-a-Permutation-With-Key'/>
-        <page name='m-mst-01.07-Rotate-Matrix-LCCI'/>
-        <page name='h-57-Insert-Interval'/>
+        <page name='e-914'/>
+        <page name='e-941'/>
+        <page name='e-999'/>
+        <page name='e-1365'/>
+        <page name='m-289'/>
+        <page name='m-912'/>
+        <page name='m-5381'/>
+        <page name='m-mst-01.07'/>
+        <page name='h-57'/>
     </pages>
 </playground>

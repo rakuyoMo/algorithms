@@ -1,17 +1,19 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 二进制求和
+ 
+ - 题号：[67](https://leetcode-cn.com/problems/add-binary/)
+ - 难度：简单
+ - 描述：
+ 
+    给定两个二进制字符串，返回他们的和（用二进制表示）。
+ 
+    输入为非空字符串且只包含数字 `1` 和 `0`。
+ */
 
+//: ## Code
 import Foundation
 
-/// 67. 二进制求和 简单
-///
-/// 给定两个二进制字符串，返回他们的和（用二进制表示）。
-///
-/// 输入为非空字符串且只包含数字 1 和 0。
-///
-/// - Parameters:
-///   - a: first string value
-///   - b: second string value
-/// - Returns: sum
 func addBinary(_ a: String, _ b: String) -> String {
     
     // 转为字符串数组
@@ -83,10 +85,9 @@ func addBinary(_ a: String, _ b: String) -> String {
     return result.reversed().joined()
 }
 
-// MARK: - Test
-
+//: ## Test
 print(addBinary("1", "111")) // 1000
 print(addBinary("11", "1")) // "100"
 print(addBinary("1010", "1011")) // "10101"
 
-//: [Next](@next)
+//: [下一道题](@next)

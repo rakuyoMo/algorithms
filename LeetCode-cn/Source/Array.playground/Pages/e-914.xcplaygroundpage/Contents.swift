@@ -1,22 +1,23 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 卡牌分组
+ 
+ - 题号：[914](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
+ - 难度：简单
+ - 描述：
+ 
+    给定一副牌，每张牌上都写着一个整数。
+    
+    此时，你需要选定一个数字 `X`，使我们可以将整副牌按下述规则分成 1 组或更多组：
+        - 每组都有 `X` 张牌。
+        - 组内所有的牌上都写着相同的整数。
+ 
+    仅当你可选的 `X >= 2` 时返回 `true`。
+ */
 
+//: ## Code
 import Foundation
 
-/// 914. 卡牌分组 简单
-///
-/// [url](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
-///
-/// 给定一副牌，每张牌上都写着一个整数。
-///
-/// 此时，你需要选定一个数字 `X`，使我们可以将整副牌按下述规则分成 1 组或更多组：
-///
-/// - 每组都有 `X` 张牌。
-/// - 组内所有的牌上都写着相同的整数。
-///
-/// 仅当你可选的 `X >= 2` 时返回 `true`。
-///
-/// - Parameter deck:
-/// - Returns:
 func hasGroupsSizeX(_ deck: [Int]) -> Bool {
     
     guard deck.count >= 2 else { return false }
@@ -99,12 +100,11 @@ private func gcd(_ a: Int, _ b: Int) -> Int {
     return a % b == 0 ? b : gcd(b, a % b)
 }
 
-// MARK: - Test
-
+//: ## Test
 print(hasGroupsSizeX2([1,2,3,4,4,3,2,1])) // true
 print(hasGroupsSizeX2([1,1,1,2,2,2,3,3])) // false
 print(hasGroupsSizeX2([1])) // false
 print(hasGroupsSizeX2([1,1])) // true
 print(hasGroupsSizeX2([1,1,2,2,2,2])) // true
 
-//: [Next](@next)
+//: [下一道题](@next)

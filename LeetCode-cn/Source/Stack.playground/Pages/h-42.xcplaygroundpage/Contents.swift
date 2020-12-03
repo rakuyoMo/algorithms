@@ -1,22 +1,23 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 接雨水
+ 
+ - 题号：[42](https://leetcode-cn.com/problems/trapping-rain-water/)
+ - 难度：困难
+ - 描述：
+ 
+    给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
+ 
+    e.g.:
+    [image](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/rainwatertrap.png)
+ 
+    上面是由数组 `[0,1,0,2,1,0,1,3,2,1,2,1]` 表示的高度图
+    在这种情况下，可以接 `6` 个单位的雨水（蓝色部分表示雨水）。
+ */
 
+//: ## Code
 import Foundation
 
-/// 42. 接雨水 困难
-///
-/// [url](https://leetcode-cn.com/problems/trapping-rain-water/)
-///
-/// 给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
-///
-/// e.g.:
-///
-/// [image](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/rainwatertrap.png)
-///
-/// 上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图
-/// 在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。
-///
-/// - Parameter heights:
-/// - Returns:
 func trap(_ heights: [Int]) -> Int {
     
     // 盛水量
@@ -126,10 +127,9 @@ func trap2(_ height: [Int]) -> Int {
     return sum
 }
 
-// MARK: - Test
-
+//: ## Test
 print(trap2([1])) // 0
 print(trap2([4,2,3])) // 1
 print(trap2([0,1,0,2,1,0,1,3,2,1,2,1])) // 6
 
-//: [Next](@next)
+//: [下一道题](@next)

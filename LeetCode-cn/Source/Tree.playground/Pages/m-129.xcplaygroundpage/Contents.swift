@@ -1,20 +1,23 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 求根到叶子节点数字之和
+ 
+ - 题号：[129](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
+ - 难度：中等
+ - 描述：
+ 
+    给定一个二叉树，它的每个结点都存放一个 0-9 的数字，每条从根到叶子节点的路径都代表一个数字。
+    
+    例如，从根到叶子节点路径 1->2->3 代表数字 123。
+    
+    计算从根到叶子节点生成的所有数字之和。
+    
+    说明: 叶子节点是指没有子节点的节点。
+ */
 
+//: ## Code
 import Foundation
 
-/// 129. 求根到叶子节点数字之和 中等
-///
-/// [url](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
-///
-/// 给定一个二叉树，它的每个结点都存放一个 0-9 的数字，每条从根到叶子节点的路径都代表一个数字。
-///
-/// 例如，从根到叶子节点路径 1->2->3 代表数字 123。
-///
-/// 计算从根到叶子节点生成的所有数字之和。
-///
-/// 说明: 叶子节点是指没有子节点的节点。
-/// - Parameter root:
-/// - Returns:
 func sumNumbers(_ root: TreeNode?) -> Int {
     
     guard let root = root else { return 0 }
@@ -96,8 +99,7 @@ func sumNumbers2(_ root: TreeNode?) -> Int {
     return total
 }
 
-// MARK: - Test
-
+//: ## Test
 let test1 = TreeNode(1, TreeNode(2), TreeNode(3))
 
 print(sumNumbers2(test1)) // 12 + 13 = 25
@@ -107,4 +109,4 @@ let test3 = TreeNode(4, test2, TreeNode(0))
 
 print(sumNumbers2(test3)) // 495 + 491 + 40 = 1026
 
-//: [Next](@next)
+//: [下一道题](@next)

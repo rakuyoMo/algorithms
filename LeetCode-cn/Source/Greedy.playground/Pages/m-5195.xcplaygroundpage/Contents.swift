@@ -1,28 +1,25 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 最长快乐字符串
+ 
+ - 题号：[5195](https://leetcode-cn.com/problems/longest-happy-string/)
+ - 题解：[链接](https://leetcode-cn.com/problems/longest-happy-string/solution/er-wei-shu-zu-by-rakuyomo/)
+ - 难度：中等
+ - 描述：
+ 
+    如果字符串中不含有任何 `'aaa'`，`'bbb'` 或 `'ccc'` 这样的字符串作为子串，那么该字符串就是一个「快乐字符串」。
+ 
+    给你三个整数 `a`，`b`，`c`，请你返回 任意一个 满足下列全部条件的字符串 `s`：
+    - `s` 是一个尽可能长的快乐字符串。
+    - `s` 中 最多 有 `a` 个字母 `'a'`、`b` 个字母 `'b'`、`c` 个字母 `'c'` 。
+    - `s` 中只含有 `'a'`、`'b'` 、`'c'` 三种字母。
+ 
+    如果不存在这样的字符串 `s` ，请返回一个空字符串 `""`。
+ */
 
+//: ## Code
 import Foundation
 
-/// 5195. 最长快乐字符串 中等
-///
-/// [url](https://leetcode-cn.com/problems/longest-happy-string/)
-/// [题解](https://leetcode-cn.com/problems/longest-happy-string/solution/er-wei-shu-zu-by-rakuyomo/)
-///
-/// 如果字符串中不含有任何 `'aaa'`，`'bbb'` 或 `'ccc'` 这样的字符串作为子串，
-/// 那么该字符串就是一个「快乐字符串」。
-///
-/// 给你三个整数 `a`，`b`，`c`，请你返回 任意一个 满足下列全部条件的字符串 `s`：
-///
-/// - `s` 是一个尽可能长的快乐字符串。
-/// - `s` 中 最多 有 `a` 个字母 `'a'`、`b` 个字母 `'b'`、`c` 个字母 `'c'` 。
-/// - `s` 中只含有 `'a'`、`'b'` 、`'c'` 三种字母。
-///
-/// 如果不存在这样的字符串 `s` ，请返回一个空字符串 `""`。
-///
-/// - Parameters:
-///   - a:
-///   - b:
-///   - c:
-/// - Returns:
 func longestDiverseString(_ a: Int, _ b: Int, _ c: Int) -> String {
     
     if a >= b && a >= c {
@@ -114,8 +111,7 @@ func helper(
     }.map { $0.joined() }.joined()
 }
 
-// MARK: - Test
-
+//: ## Test
 print(longestDiverseString(1, 8, 12)) // "ccbccbccbbccbbccbbcca"
 print(longestDiverseString(1, 1, 7))  // "ccaccbcc"
 print(longestDiverseString(0, 0, 0))  // "abc"
@@ -123,4 +119,4 @@ print(longestDiverseString(1, 1, 1))  // "abc"
 print(longestDiverseString(2, 2, 1))  // "aabbc"
 print(longestDiverseString(7, 1, 0))
 
-//: [Next](@next)
+//: [下一道题](@next)

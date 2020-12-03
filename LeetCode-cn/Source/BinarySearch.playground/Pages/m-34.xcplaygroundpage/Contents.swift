@@ -1,20 +1,20 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 在排序数组中查找元素的第一个和最后一个位置
+ 
+ - 题号：[34](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+ - 难度：中等
+ - 描述：
+ 
+    给定一个按照升序排列的整数数组 `nums`，和一个目标值 `target`。
+    找出给定目标值在数组中的开始位置和结束位置。
+ 
+    如果数组中不存在目标值 `target`，返回 `[-1, -1]`。
+ */
 
+//: ## Code
 import Foundation
 
-/// 34. 在排序数组中查找元素的第一个和最后一个位置 中等
-///
-/// [url](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-///
-/// 给定一个按照升序排列的整数数组 `nums`，和一个目标值 `target`。
-/// 找出给定目标值在数组中的开始位置和结束位置。
-///
-/// 如果数组中不存在目标值 `target`，返回 `[-1, -1]`。
-///
-/// - Parameters:
-///   - nums:
-///   - target:
-/// - Returns:
 func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
     
     guard !nums.isEmpty else { return [-1,-1] }
@@ -92,9 +92,10 @@ func searchRange1(_ nums: [Int], _ target: Int) -> [Int] {
     return result
 }
 
+//: ## Test
 print(searchRange1([5,7,7,8,8,10], 8)) // [3,4]
 print(searchRange1([5,7,7,8,8,10], 6)) // [-1,-1]
 print(searchRange1([1,3], 1)) // [0,0]
 print(searchRange1([], 0)) // [-1,-1]
 
-//: [Next](@next)
+//: [下一道题](@next)

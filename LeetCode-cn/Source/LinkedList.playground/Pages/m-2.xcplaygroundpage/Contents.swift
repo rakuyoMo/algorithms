@@ -1,22 +1,22 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 两数相加
+ 
+ - 题号：[2](https://leetcode-cn.com/problems/add-two-numbers/)
+ - 难度：中等
+ - 描述：
+ 
+    给出两个 非空 的链表用来表示两个非负的整数。
+    
+    其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
+    如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
+    
+    您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
+ */
 
+//: ## Code
 import Foundation
 
-/// 2. 两数相加 中等
-///
-/// [url](https://leetcode-cn.com/problems/add-two-numbers/)
-///
-/// 给出两个 非空 的链表用来表示两个非负的整数。
-/// 其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
-///
-/// 如果，我们将这两个数相加起来，则会返回一个新的链表来表示它们的和。
-///
-/// 您可以假设除了数字 0 之外，这两个数都不会以 0 开头。
-///
-/// - Parameters:
-///   - l1: 第一个数
-///   - l2: 第二个数
-/// - Returns: 合链表
 func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     
     var first: ListNode? = l1
@@ -58,8 +58,7 @@ func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     return head
 }
 
-// MARK: - Test
-
+//: ## Test
 let l1 = ListNode([9])
 let l2 = ListNode([9,9])
 
@@ -70,4 +69,4 @@ print(result?.next?.val as Any)
 print(result?.next?.next?.val as Any)
 print(result?.next?.next?.next?.val as Any)
 
-//: [Next](@next)
+//: [下一道题](@next)

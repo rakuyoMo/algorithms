@@ -1,17 +1,21 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 三维形体的表面积
+ 
+ - 题号：[892](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/)
+ - 难度：简单
+ - 描述：
+ 
+    在 `N*N` 的网格上，我们放置一些 `1*1*1` 的立方体。
+    
+    每个值 `v = grid[i][j]` 表示 `v` 个正方体叠放在对应单元格 `(i, j)` 上。
+    
+    请你返回最终形体的表面积。
+ */
 
+//: ## Code
 import Foundation
 
-/// 892. 三维形体的表面积 简单
-///
-/// 在 N * N 的网格上，我们放置一些 1 * 1 * 1 的立方体。
-///
-/// 每个值 v = grid[i][j] 表示 v 个正方体叠放在对应单元格 (i, j) 上。
-///
-/// 请你返回最终形体的表面积。
-///
-/// - Parameter grid: 测试用例
-/// - Returns: 表面积
 func surfaceArea(_ grid: [[Int]]) -> Int {
     
     guard !grid.isEmpty else { return 0 }
@@ -47,8 +51,7 @@ func surfaceArea(_ grid: [[Int]]) -> Int {
     return faceCount
 }
 
-// MARK: - Test
-
+//: ## Test
 print(surfaceArea([[], []])) // 0
 print(surfaceArea([[2]])) // 10
 print(surfaceArea([[1,2],[3,4]])) // 34
@@ -56,4 +59,4 @@ print(surfaceArea([[1,0],[0,2]])) // 16
 print(surfaceArea([[1,1,1],[1,0,1],[1,1,1]])) // 32
 print(surfaceArea([[2,2,2],[2,1,2],[2,2,2]])) // 46
 
-//: [Next](@next)
+//: [下一道题](@next)

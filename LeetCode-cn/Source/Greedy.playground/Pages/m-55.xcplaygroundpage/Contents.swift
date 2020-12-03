@@ -1,17 +1,21 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 跳跃游戏
+ 
+ - 题号：[55](https://leetcode-cn.com/problems/jump-game/)
+ - 难度：中等
+ - 描述：
+ 
+    给定一个非负整数数组，你最初位于数组的第一个位置。
+    
+    数组中的每个元素代表你在该位置可以跳跃的最大长度。
+    
+    判断你是否能够到达最后一个位置。
+ */
 
+//: ## Code
 import Foundation
 
-/// 55. 跳跃游戏 中等
-///
-/// 给定一个非负整数数组，你最初位于数组的第一个位置。
-///
-/// 数组中的每个元素代表你在该位置可以跳跃的最大长度。
-///
-/// 判断你是否能够到达最后一个位置。
-///
-/// - Parameter nums:
-/// - Returns:
 func canJump(_ nums: [Int]) -> Bool {
     
     var max = 0
@@ -106,9 +110,10 @@ func canJump3(_ nums: [Int]) -> Bool {
     return true
 }
 
+//: ## Test
 print(canJump2([2,3,1,1,4]))   // true
 print(canJump2([3,2,1,0,4]))   // false
 print(canJump2([1,5,0,0,0,0])) // true
 print(canJump2([2,5,0,0]))     // true
 
-//: [Next](@next)
+//: [下一道题](@next)

@@ -1,22 +1,21 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 二叉树的最近公共祖先
+ 
+ - 题号：[236](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+ - 难度：中等
+ - 描述：
+ 
+    给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
+    
+    百度百科中最近公共祖先的定义为：
+        “对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，
+        满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
+ */
 
+//: ## Code
 import Foundation
 
-/// 236. 二叉树的最近公共祖先 中等
-///
-/// [url](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-///
-/// 给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
-///
-/// 百度百科中最近公共祖先的定义为：
-/// “对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，
-/// 满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
-///
-/// - Parameters:
-///   - root: 二叉树
-///   - p: 节点1
-///   - q: 节点2
-/// - Returns: 最近公共祖先
 func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
     
     var result: TreeNode? = nil
@@ -45,6 +44,7 @@ func recurseTree(_ currentNode: TreeNode?, _ p: TreeNode?, _ q: TreeNode?, _ res
     return mid + left + right > 0
 }
 
+//: ## Test
 //if let dfs = TreeNode(dfs: [1,2,3,4,nil,nil,5,nil,nil,nil,6,7,nil,8,nil,nil,9]) {
 //    print(dfs.bfsDescription)
 //    print(dfs.dfsDescription)
@@ -57,4 +57,4 @@ func recurseTree(_ currentNode: TreeNode?, _ p: TreeNode?, _ q: TreeNode?, _ res
 //    print(bfs.dfsDescription)
 //}
 
-//: [Next](@next)
+//: [下一道题](@next)

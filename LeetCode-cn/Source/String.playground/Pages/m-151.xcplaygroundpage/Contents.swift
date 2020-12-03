@@ -1,15 +1,17 @@
-//: [Previous](@previous)
+//: [上一道题](@previous)
+/*:
+ # 翻转字符串里的单词
+ 
+ - 题号：[151](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+ - 难度：中等
+ - 描述：
+ 
+    给定一个字符串，逐个翻转字符串中的每个单词。
+ */
 
+//: ## Code
 import Foundation
 
-/// 151. 翻转字符串里的单词 中等
-///
-/// [url](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
-///
-/// 给定一个字符串，逐个翻转字符串中的每个单词。
-///
-/// - Parameter s:
-/// - Returns:
 func reverseWords(_ s: String) -> String {
     return s.split { $0.isWhitespace }.reversed().joined(separator: " ")
 }
@@ -51,10 +53,9 @@ func reverseWords2(_ s: String) -> String {
     return string
 }
 
-// MARK: - Test
-
+//: ## Test
 print(reverseWords2("the sky is blue")) // "blue is sky the"
 print(reverseWords2("  hello world!  ")) // "world! hello"
 print(reverseWords2("a good   example")) // "example good a"
 
-//: [Next](@next)
+//: [下一道题](@next)
