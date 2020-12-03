@@ -123,7 +123,7 @@
 
 [2]: Source/LinkedList.playground/Pages/m-2.xcplaygroundpage/Contents.swift
 [22]: Source/String.playground/Pages/m-22.xcplaygroundpage/Contents.swift
-[34]: Source/Array.playground/Pages/m-34.xcplaygroundpage/Contents.swift
+[34]: Source/BinarySearch.playground/Pages/m-34.xcplaygroundpage/Contents.swift
 [42]: Source/Stack.playground/Pages/h-42.xcplaygroundpage/Contents.swift
 [55]: Source/Array.playground/Pages/m-55.xcplaygroundpage/Contents.swift
 [57]: Source/Array.playground/Pages/h-57.xcplaygroundpage/Contents.swift
