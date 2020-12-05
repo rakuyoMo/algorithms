@@ -83,6 +83,7 @@
 | --- | --- | :---: |
 | [232][] |Implement Queue using Stacks | ![Easy][] |
 | [mst-03.02][] | Min Stack LCCI | ![Easy][] |
+| [496][] | Validate Stack Sequences | ![Medium][] |
 | [42][] | Trapping Rain Water | ![Hard][] |
 
 ### String
@@ -140,6 +141,7 @@
 [289]: Source/Array.playground/Pages/m-289.xcplaygroundpage/Contents.swift
 [349]: Source/TwoPointers.playground/Pages/e-349.xcplaygroundpage/Contents.swift
 [463]: Source/HashTable.playground/Pages/e-463.xcplaygroundpage/Contents.swift
+[496]: Source/Stack.playground/Pages/m-496.xcplaygroundpage/Contents.swift
 [820]: Source/Trie.playground/Pages/m-820.xcplaygroundpage/Contents.swift
 [876]: Source/LinkedList.playground/Pages/e-876.xcplaygroundpage/Contents.swift
 [892]: Source/Math.playground/Pages/e-892.xcplaygroundpage/Contents.swift
