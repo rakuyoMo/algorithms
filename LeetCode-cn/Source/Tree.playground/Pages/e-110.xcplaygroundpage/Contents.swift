@@ -38,7 +38,7 @@ func isBalanced(_ root: TreeNode?) -> Bool {
     return _traverse(root)
 }
 
-////: ## Test
+//: ## Test
 let root1 = TreeNode(3)
 root1.left = TreeNode(9)
 root1.right = TreeNode(20)
@@ -62,4 +62,4 @@ root3.left = TreeNode(2)
 root3.right = TreeNode(2)
 root3.left?.left = TreeNode(3)
 
-//: [Next](@next)
+//: [下一道题](@next)
