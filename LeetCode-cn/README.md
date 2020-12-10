@@ -102,6 +102,7 @@
 | [104][] | Maximum Depth of Binary Tree | ![Easy][] |
 | [110][] | Balanced Binary Tree | ![Easy][] |
 | [226][] | Invert Binary Tree | ![Easy][] |
+| [94][] | Binary Tree Inorder Traversal | ![Medium][] |
 | [129][] | Sum Root to Leaf Numbers | ![Medium][] |
 | [144][] | Binary Tree Preorder Traversal | ![Medium][] |
 | [236][] | Lowest Common Ancestor of a Binary Tree | ![Medium][] |
@@ -131,6 +132,7 @@
 [55]: Source/Array.playground/Pages/m-55.xcplaygroundpage/Contents.swift
 [57]: Source/Array.playground/Pages/h-57.xcplaygroundpage/Contents.swift
 [67]: Source/Math.playground/Pages/e-67.xcplaygroundpage/Contents.swift
+[94]: Source/Tree.playground/Pages/m-94.xcplaygroundpage/Contents.swift
 [104]: Source/Tree.playground/Pages/e-104.xcplaygroundpage/Contents.swift
 [110]: Source/Tree.playground/Pages/e-110.xcplaygroundpage/Contents.swift
 [127]: Source/BreadthFirstSearch.playground/Pages/m-127.xcplaygroundpage/Contents.swift
