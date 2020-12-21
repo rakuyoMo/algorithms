@@ -106,6 +106,7 @@
 | [129][] | Sum Root to Leaf Numbers | ![Medium][] |
 | [144][] | Binary Tree Preorder Traversal | ![Medium][] |
 | [236][] | Lowest Common Ancestor of a Binary Tree | ![Medium][] |
+| [654][] | Maximum Binary Tree | ![Medium][] |
 
 ### Trie
 
@@ -148,6 +149,7 @@
 [349]: Source/TwoPointers.playground/Pages/e-349.xcplaygroundpage/Contents.swift
 [463]: Source/HashTable.playground/Pages/e-463.xcplaygroundpage/Contents.swift
 [496]: Source/Stack.playground/Pages/m-496.xcplaygroundpage/Contents.swift
+[654]: Source/Tree.playground/Pages/m-654.xcplaygroundpage/Contents.swift
 [820]: Source/Trie.playground/Pages/m-820.xcplaygroundpage/Contents.swift
 [876]: Source/LinkedList.playground/Pages/e-876.xcplaygroundpage/Contents.swift
 [892]: Source/Math.playground/Pages/e-892.xcplaygroundpage/Contents.swift
